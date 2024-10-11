@@ -173,18 +173,14 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
       if x == y {
         Ordering::Equal
       } else if x > y {
-        Ordering::Less
-      } else {
         Ordering::Greater
+      } else {
+        Ordering::Less
       }
     });
 
     if !versions.is_empty() {
-      let _v = if versions.len() == 1 {
-        versions.remove(0)
-      } else {
-        versions.swap_remove(0)
-      };
+      let _v = versions.pop().unwrap();
 
       //println!("Author: {author} App: {app} Ver: {v:?}");
     }
