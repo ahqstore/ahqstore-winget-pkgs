@@ -172,7 +172,13 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
       let x = Version::from(x).unwrap();
       let y = Version::from(y).unwrap();
 
-      return x > y;
+      if x == y {
+        Ordering::Equal
+      } else if x > y {
+        Ordering::Less
+      } else {
+        Ordering::Greater
+      }
     });
 
     if !versions.is_empty() {
