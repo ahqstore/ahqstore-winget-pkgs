@@ -2,7 +2,7 @@ use ahqstore_types::AHQStoreApplication;
 use serde_yml::from_str;
 use std::{
   cmp::Ordering,
-  fs::{self, File, FileType},
+  fs::{self, File},
   io::Write,
 };
 use version_compare::Version;
@@ -164,8 +164,6 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
       .clone()
       .filter(|x| Version::from(x.to_str().unwrap_or("unknown")).is_some())
       .collect::<Vec<_>>();
-
-    use sort_algorithms::cocktail_shaker_sort;
 
     versions.sort_by(|x, y| {
       let (x, y) = (x.to_str().unwrap_or("0.0.0"), y.to_str().unwrap_or("0.0.0"));
