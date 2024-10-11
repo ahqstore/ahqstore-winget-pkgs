@@ -20,9 +20,3 @@ jobs:
         run: |
           git repo clone https://github.com/microsoft/winget-pkgs.git
           cargo run --release
-
-      - name: Upload
-        uses: actions/upload-artifact@v2
-        with:
-          name: ahqstore-winget-pkgs
-          path: dist
