@@ -167,7 +167,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
 
     use sort_algorithms::cocktail_shaker_sort;
 
-    cocktail_shaker_sort(&mut versions, |x, y| {
+    versions.sort_by(|x, y| {
       let (x, y) = (x.to_str().unwrap_or("0.0.0"), y.to_str().unwrap_or("0.0.0"));
       let x = Version::from(x).unwrap();
       let y = Version::from(y).unwrap();
