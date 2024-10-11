@@ -169,8 +169,6 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
       let x = Version::from(x).unwrap_or(Version::from(format!("{}.0.0", x).leak()).unwrap());
       let y = Version::from(y).unwrap_or(Version::from(format!("{}.0.0", y).leak()).unwrap());
 
-      println!("{x:?} and {y:?}");
-
       if x == y {
         return Ordering::Equal;
       } else if x > y {
@@ -183,7 +181,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
     });
 
     if !versions.is_empty() {
-      let v = if versions.len() == 1 {
+      let _v = if versions.len() == 1 {
         versions.remove(0)
       } else {
         versions.swap_remove(0)
