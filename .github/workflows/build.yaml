@@ -1,0 +1,28 @@
+name: Build
+
+on:
+  push:
+  schedule:
+    - cron: "0 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Rust
+        run: rustup install stable
+
+      - name: Build
+        run: |
+          git repo clone https://github.com/microsoft/winget-pkgs.git
+          cargo run --release
+
+      - name: Upload
+        uses: actions/upload-artifact@v2
+        with:
+          name: ahqstore-winget-pkgs
+          path: dist

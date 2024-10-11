@@ -1,0 +1,11 @@
+[package]
+name = "astore-apps-repo"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ahqstore-types = { version = "3" }
+serde_yml = "0.0.12"
+version-compare = "0.2.0"
