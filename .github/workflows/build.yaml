@@ -6,7 +6,9 @@ on:
     - cron: "0 * * * *"
 
 jobs:
-  build:
+  run:
+    name: Parse Winget Manifests
+
     runs-on: ubuntu-latest
 
     steps:
@@ -18,5 +20,5 @@ jobs:
 
       - name: Build
         run: |
-          git repo clone https://github.com/microsoft/winget-pkgs.git
+          git clone https://github.com/microsoft/winget-pkgs.git
           cargo run --release
