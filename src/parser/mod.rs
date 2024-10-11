@@ -162,22 +162,17 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
 
     let mut versions = inside
       .clone()
-      .filter(|x| Version::from(x.to_str().unwrap_or("unknown")).is_some() || Version::from(&format!("{}.0.0", x.to_str().unwrap_or(""))).is_some())
+      .filter(|x| Version::from(x.to_str().unwrap_or("unknown")).is_some())
       .collect::<Vec<_>>();
-    versions.sort_by(|x, y| {
+
+    use sort_algorithms::cocktail_shaker_sort;
+
+    cocktail_shaker_sort(&mut versions, |x, y| {
       let (x, y) = (x.to_str().unwrap_or("0.0.0"), y.to_str().unwrap_or("0.0.0"));
-      let x = Version::from(x).unwrap_or(Version::from(format!("{}.0.0", x).leak()).unwrap());
-      let y = Version::from(y).unwrap_or(Version::from(format!("{}.0.0", y).leak()).unwrap());
+      let x = Version::from(x).unwrap();
+      let y = Version::from(y).unwrap();
 
-      if x == y {
-        return Ordering::Equal;
-      } else if x > y {
-        return Ordering::Less;
-      } else if x < y {
-        return Ordering::Greater;
-      }
-
-      panic!("Impossible condition with {x:?} and {y:?}");
+      return x > y;
     });
 
     if !versions.is_empty() {
