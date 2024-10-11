@@ -181,6 +181,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
 
     if !versions.is_empty() {
       let _v = versions.pop().unwrap();
+      drop(versions);
 
       //println!("Author: {author} App: {app} Ver: {v:?}");
     }
