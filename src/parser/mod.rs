@@ -170,12 +170,14 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
       let y = Version::from(y).unwrap_or(Version::from(format!("{}.0.0", y).leak()).unwrap());
 
       if x == y {
-        Ordering::Equal
+        return Ordering::Equal;
       } else if x > y {
-        Ordering::Less
-      } else {
-        Ordering::Greater
+        return Ordering::Less;
+      } else if x < y {
+        return Ordering::Greater;
       }
+
+      panic!("Impossible condition with {x:?} and {y:?}");
     });
 
     if !versions.is_empty() {

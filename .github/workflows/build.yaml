@@ -1,4 +1,4 @@
-name: Build
+name: WinGet Manifests
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   run:
-    name: Parse Winget Manifests
+    name: Parse WinGet Manifests
 
     runs-on: ubuntu-latest
 
