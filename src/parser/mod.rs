@@ -189,7 +189,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
         versions.swap_remove(0)
       };
 
-      println!("Author: {author} App: {app} Ver: {v:?}");
+      //println!("Author: {author} App: {app} Ver: {v:?}");
     }
     
     for product in inside.filter(|x| Version::from(x.to_str().unwrap_or("unknown")).is_none()) {
