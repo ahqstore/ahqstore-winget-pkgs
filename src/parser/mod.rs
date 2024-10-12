@@ -216,7 +216,8 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
           let mut winarm = None;
         
           installer.Installers.into_iter().for_each(|x| {
-            let installer = match x.InstallerType.unwrap_or_default().as_str() {
+            let installer = x.InstallerType.unwrap_or("exe".into());
+            let installer = match installer.as_str() {
               "msi" => Some(InstallerFormat::WindowsInstallerMsi),
               "wix" => Some(InstallerFormat::WindowsInstallerMsi),
               "exe" => Some(InstallerFormat::WindowsInstallerExe),
@@ -225,6 +226,8 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
         
             if installer.is_some() && &x.InstallerLocale.unwrap_or_default() == "en-US" {
               let r#type = installer.unwrap();
+              
+              println!("⏲️ {app_id} is using {type:?}");
         
               if &x.Architecture == "x64" {
                 x64.installerType = r#type;
@@ -267,7 +270,11 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
               repo: "winget-pkgs".into(),
             },
             site: en_us.PublisherUrl,
-            resources: None,
+            resources: Some({
+              let mut data = HashMap::new();
+              data.insert(0, include_bytes!("../../icon.png").to_vec());
+              data
+            }),
             downloadUrls: {
               let mut data = HashMap::new();
               data.insert(0, arm);
