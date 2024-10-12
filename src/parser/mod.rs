@@ -160,30 +160,35 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
     let inside = inside.filter(|x| x != ".validation").collect::<Vec<_>>();
     let inside = inside.into_iter();
 
-    let mut versions = inside
+    let versions = inside
       .clone()
       .filter(|x| Version::from(x.to_str().unwrap_or("unknown")).is_some())
       .collect::<Vec<_>>();
 
-    versions.sort_by(|x, y| {
-      let (x, y) = (x.to_str().unwrap_or("0.0.0"), y.to_str().unwrap_or("0.0.0"));
-      let x = Version::from(x).unwrap();
-      let y = Version::from(y).unwrap();
+    let mut latest: Option<String> = None;
 
-      if x == y {
-        Ordering::Equal
-      } else if x > y {
-        Ordering::Greater
+    versions.into_iter().for_each(|version| {
+      let version = version.to_str();
+      let version = version.unwrap_or("0.0.0");
+      let ver_string = version.to_string();
+      let version = Version::from(ver_string.as_str()).unwrap();
+
+      if let Some(latest) = latest.as_mut() {
+        if version > Version::from(latest).unwrap() {
+          *latest = ver_string;
+        } else {
+          drop(version);
+          drop(ver_string);
+        }
       } else {
-        Ordering::Less
+        latest = Some(ver_string);
       }
     });
 
-    if !versions.is_empty() {
-      let _v = versions.pop().unwrap();
-      drop(versions);
+    if latest.is_some() {
+      let _v = latest.unwrap();
 
-      //println!("Author: {author} App: {app} Ver: {v:?}");
+      println!("Author: {author} App: {app} Ver: {_v:?}");
     }
     
     for product in inside.filter(|x| Version::from(x.to_str().unwrap_or("unknown")).is_none()) {
