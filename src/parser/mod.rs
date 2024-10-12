@@ -224,10 +224,8 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
               _ => None,
             };
         
-            if installer.is_some() && &x.InstallerLocale.unwrap_or_default() == "en-US" {
+            if installer.is_some() && &x.InstallerLocale.unwrap_or("en-US".into()) == "en-US" {
               let r#type = installer.unwrap();
-              
-              println!("⏲️ {app_id} is using {type:?}");
         
               if &x.Architecture == "x64" {
                 x64.installerType = r#type;
