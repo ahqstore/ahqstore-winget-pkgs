@@ -216,7 +216,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
           let mut winarm = None;
         
           installer.Installers.into_iter().for_each(|x| {
-            let installer = match x.InstallerType.as_ref() {
+            let installer = match x.InstallerType.unwrap_or_default() {
               "msi" => Some(InstallerFormat::WindowsInstallerMsi),
               "exe" => Some(InstallerFormat::WindowsInstallerExe),
               _ => None,
