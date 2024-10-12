@@ -64,7 +64,7 @@ impl Map {
     let _ = fs::write(&file, val);
   }
 
-  fn add(&mut self, app: AHQStoreApplication) {
+  fn add(&mut self, mut app: AHQStoreApplication) {
     if self.entries >= 100_000 {
       self.new_file();
     }
@@ -88,7 +88,11 @@ impl Map {
       .as_bytes(),
     );
 
-    let (app_str, res) = app.export();
+    let (_, res) = app.export();
+
+    app.resources = None;
+
+    let app_str = serde_json::to_string(&app).unwrap();
 
     let app_export_path = format!("./db/apps/{}.json", &app.appId);
     
