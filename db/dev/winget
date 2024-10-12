@@ -1800,6 +1800,7 @@ winget_app_Formlabs.PreForm
 winget_app_Fiji.ImageJ
 winget_app_FileVoyager.FileVoyager
 winget_app_fredserva.birdskitchen
+winget_app_FrancisBanyikwa.MediaDownloader
 winget_app_FrancisBanyikwa.SiriKali
 winget_app_feliskio.sleep_timer
 winget_app_FelixZeller.markdown_oxide
@@ -2079,7 +2080,9 @@ winget_app_ItchIo.Itch
 winget_app_IPVanish.IPVanish
 winget_app_IPVanish.SugarSync
 winget_app_Icecat.Icecat
+winget_app_ImageMagick.Q8
 winget_app_ImageMagick.Q16_HDRI
+winget_app_ImageMagick.Q16
 winget_app_ImageMagick.ImageMagick
 winget_app_ICBC.ICBCChromeExtension
 winget_app_ICBC.ICBCEBankAssist
