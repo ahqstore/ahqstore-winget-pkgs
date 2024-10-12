@@ -22,3 +22,14 @@ jobs:
         run: |
           git clone https://github.com/microsoft/winget-pkgs.git
           cargo run --release
+
+      - name: Upload
+        uses: EndBug/add-and-commit@v9
+        with:
+          add: .
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          message: "Update winget-pkgs"
+          push: true
+          committer_name: Actions Bot
+          committer_email: actions@github.com
