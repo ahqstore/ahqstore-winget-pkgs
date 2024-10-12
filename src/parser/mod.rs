@@ -1,9 +1,7 @@
-use ahqstore_types::AHQStoreApplication;
+use ahqstore_types::{AHQStoreApplication, AppRepo, DownloadUrl, InstallerFormat, InstallerOptions, InstallerOptionsWindows};
 use serde_yml::from_str;
 use std::{
-  cmp::Ordering,
-  fs::{self, File},
-  io::Write,
+  collections::HashMap, fs::{self, File}, io::Write
 };
 use version_compare::Version;
 
@@ -92,7 +90,9 @@ impl Map {
 
     let (app_str, res) = app.export();
 
-    let _ = fs::write(format!("./db/apps/{}.json", &app.appId), app_str);
+    let app_export_path = format!("./db/apps/{}.json", &app.appId);
+    
+    let _ = fs::write(app_export_path, app_str);
 
     let _ = fs::create_dir_all(format!("./db/res/{}", &app.appId));
 
@@ -186,9 +186,112 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
     });
 
     if latest.is_some() {
-      let _v = latest.unwrap();
+      let v = latest.unwrap();
 
-      println!("Author: {author} App: {app} Ver: {_v:?}");
+      let letter = author.trim();
+      let mut letter = letter.split("").collect::<Vec<_>>();
+      let letter = letter.remove(1);
+      let letter = letter.to_lowercase();
+
+      let app_id = format!("{}.{}", &author.replace("/", "."), &app);
+      let en_us = format!("./winget-pkgs/manifests/{letter}/{author}/{app}/{v}/{app_id}.locale.en-US.yaml");
+      let installer = format!("./winget-pkgs/manifests/{letter}/{author}/{app}/{v}/{app_id}.installer.yaml");
+
+      if let (Ok(en_us), Ok(installer)) = (fs::read_to_string(&en_us), fs::read_to_string(&installer)) {
+        use ahqstore_types::winget::{WingetApplication, InstallerScheme};
+
+        if let (Ok(en_us), Ok(installer)) = (from_str::<WingetApplication>(&en_us), from_str::<InstallerScheme>(&installer)) {
+          let mut arm = DownloadUrl {
+            asset: "".into(),
+            installerType: InstallerFormat::WindowsInstallerMsi,
+            url: "".into(),
+          };
+          let mut x64 = DownloadUrl {
+            asset: "".into(),
+            installerType: InstallerFormat::WindowsInstallerMsi,
+            url: "".into(),
+          };
+        
+          let mut win32 = None;
+          let mut winarm = None;
+        
+          installer.Installers.into_iter().for_each(|x| {
+            let installer = match x.InstallerType.as_ref() {
+              "msi" => Some(InstallerFormat::WindowsInstallerMsi),
+              "exe" => Some(InstallerFormat::WindowsInstallerExe),
+              _ => None,
+            };
+        
+            if installer.is_some() && &x.InstallerLocale.unwrap_or_default() == "en-US" {
+              let r#type = installer.unwrap();
+        
+              if &x.Architecture == "x64" {
+                x64.installerType = r#type;
+        
+                x64.url = x.InstallerUrl;
+        
+                win32 = Some(InstallerOptionsWindows {
+                  assetId: 1,
+                  exec: None,
+                  installerArgs: None,
+                });
+              } else if &x.Architecture == "arm64" {
+                arm.installerType = r#type;
+        
+                arm.url = x.InstallerUrl;
+        
+                winarm = Some(InstallerOptionsWindows {
+                  assetId: 0,
+                  exec: None,
+                  installerArgs: None,
+                });
+              }
+            }
+          });
+          
+          let app = AHQStoreApplication {
+            appDisplayName: en_us.PackageName,
+            appId: format!("winget_app_{}", app_id.replace("-", "_")),
+            appShortcutName: format!("Winget Application"),
+            app_page: en_us.PackageUrl,
+            authorId: format!("winget"),
+            description: format!("{}\n\n{}\n{}", en_us.ShortDescription.unwrap_or_default(), en_us.Description.unwrap_or_default(), en_us.ReleaseNotes.unwrap_or_default()),
+            displayImages: vec![],
+            releaseTagName: format!("winget-{}", v),
+            version: v,
+            source: Some(format!("WinGet")),
+            license_or_tos: en_us.License,
+            repo: AppRepo {
+              author: "microsoft".into(),
+              repo: "winget-pkgs".into(),
+            },
+            site: en_us.PublisherUrl,
+            resources: None,
+            downloadUrls: {
+              let mut data = HashMap::new();
+              data.insert(0, arm);
+              data.insert(1, x64);
+              data
+            },
+            install: InstallerOptions {
+              android: None,
+              linux: None,
+              linuxArm64: None,
+              linuxArm7: None,
+              win32,
+              winarm
+            }
+          };
+
+          println!("✅ Added {author} {app_id}");
+
+          map.add(app);
+        } else {
+          println!("⚠️ Unable to parse {author} {app}");
+        }
+      } else {
+        println!("⚠️ Cancelled Author: {author} App: {app} Ver: {v:?}");
+      }
     }
     
     for product in inside.filter(|x| Version::from(x.to_str().unwrap_or("unknown")).is_none()) {
