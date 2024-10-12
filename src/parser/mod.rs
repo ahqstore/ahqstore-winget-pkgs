@@ -218,6 +218,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
           installer.Installers.into_iter().for_each(|x| {
             let installer = match x.InstallerType.unwrap_or_default().as_str() {
               "msi" => Some(InstallerFormat::WindowsInstallerMsi),
+              "wix" => Some(InstallerFormat::WindowsInstallerMsi),
               "exe" => Some(InstallerFormat::WindowsInstallerExe),
               _ => None,
             };
