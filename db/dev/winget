@@ -489,6 +489,7 @@ winget_app_webrecorder.replayweb_page
 winget_app_weolar.xpchrome
 winget_app_wahao.Electron_iGot
 winget_app_WebCatalogLtd.WebCatalog
+winget_app_WesternDigital.Dashboard
 winget_app_Watfaq.PowerSession
 winget_app_Wetransform.HaleStudio
 winget_app_WoowaBrothersCorp.BaeminOrder
@@ -1083,6 +1084,7 @@ winget_app_Mozilla.Firefox.DeveloperEdition.pt_BR
 winget_app_Mozilla.Firefox.DeveloperEdition.bg
 winget_app_Mozilla.Firefox.DeveloperEdition.sco
 winget_app_Mozilla.Firefox.DeveloperEdition.ta
+winget_app_Mozilla.Firefox.DeveloperEdition.bn
 winget_app_Mozilla.Firefox.DeveloperEdition.pt_PT
 winget_app_Mozilla.Firefox.DeveloperEdition.az
 winget_app_Mozilla.Firefox.DeveloperEdition.ff
@@ -4734,7 +4736,6 @@ winget_app_VirtualGL.TurboVNC
 winget_app_VirtualGL.VirtualGL
 winget_app_VB_Audio.Voicemeeter
 winget_app_VPNetwork.TorGuard
-winget_app_veeam.veeam_agent
 winget_app_Vitzo.ClipClip
 winget_app_VisualParadigm.Community
 winget_app_VeyonSolutions.Veyon
@@ -4756,6 +4757,7 @@ winget_app_Valve.SteamLink
 winget_app_Valve.Steam
 winget_app_VirtusLab.ScalaCLI
 winget_app_venko.ClassicGenerator
+winget_app_Veeam.VeeamAgent
 winget_app_VisualGPS.VisualGPSView
 winget_app_Venturi.HideVolumeOSD
 winget_app_Vromans.ChordPro
