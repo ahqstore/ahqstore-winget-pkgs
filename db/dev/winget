@@ -786,7 +786,6 @@ winget_app_Microsoft.WindowsVirtualDesktopAgent
 winget_app_Microsoft.msmpi
 winget_app_Microsoft.MFCMapi
 winget_app_Microsoft.HwpConverter
-winget_app_Microsoft.msodbcsql
 winget_app_Microsoft.ProjectMyScreen
 winget_app_Microsoft.Sysinternals
 winget_app_Microsoft.PowerAutomateDesktop
