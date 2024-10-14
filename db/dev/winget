@@ -798,7 +798,6 @@ winget_app_Microsoft.Git
 winget_app_Microsoft.Teams
 winget_app_Microsoft.VCLibs.Desktop.14
 winget_app_Microsoft.DirectX
-winget_app_Microsoft.Office
 winget_app_Microsoft.VFSforGit
 winget_app_Microsoft.LogParser
 winget_app_Microsoft.DotNet.DesktopRuntime.7
@@ -3847,6 +3846,7 @@ winget_app_Emurasoft.EmEditor
 winget_app_Endicia.EndiciaConnect
 winget_app_EverEdit.EverEdit
 winget_app_EclipseFoundation.TheiaBlueprint
+winget_app_EclipseFoundation.TheiaIDE
 winget_app_EclipseFoundation.SUMO
 winget_app_EclipseFoundation.Mosquitto
 winget_app_echocat.watch
