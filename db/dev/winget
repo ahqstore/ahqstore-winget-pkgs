@@ -164,6 +164,9 @@ winget_app_PeterDaveHello.TransmissionRemoteGUI
 winget_app_PowerSoftware.AnyBurn
 winget_app_PowerSoftware.PowerISO
 winget_app_PowTools.FileShredder
+winget_app_Polyv.PolyvLive
+winget_app_Polyv.PolyvDirector
+winget_app_Polyv.PolyvLiveCommunity
 winget_app_PioneerDevelopers.Pioneer
 winget_app_PicoTorrent.PicoTorrent
 winget_app_Prog.ProgFinder
@@ -1593,6 +1596,7 @@ winget_app_JamesLarus.SPIM
 winget_app_JRSoftware.InnoSetup
 winget_app_JFLarvoire.Ag
 winget_app_just_install.just_install
+winget_app_jadquir.MRA
 winget_app_JGraph.Draw
 winget_app_JoeIpson.Jellyamp
 winget_app_JakobHellermann.Atlas
@@ -1818,6 +1822,8 @@ winget_app_FireDaemon.OpenSSL
 winget_app_FireDaemon.FireDaemonLozenge
 winget_app_FireDaemon.FireDaemonFusion
 winget_app_FeatherWallet.Feather
+winget_app_FineprintSoftware.pdfFactory
+winget_app_FineprintSoftware.FinePrint
 winget_app_FelipeSantos.ClipboardSync
 winget_app_Figma.FigmaAgent
 winget_app_Figma.Figma
@@ -2035,6 +2041,7 @@ winget_app_Iterate.Cyberduck
 winget_app_Iterate.MountainDuck
 winget_app_InstEd.InstEd
 winget_app_IHK.SignaturePrintClient
+winget_app_input_leap.input_leap
 winget_app_ITRI.QuickSECS
 winget_app_iFileSpace.iFile
 winget_app_iFileSpace.iFileSpace
@@ -4455,6 +4462,7 @@ winget_app_advaith.CurrencyConverterPowerToys
 winget_app_AmanHarwara.Altus
 winget_app_AppFlowy.AppFlowy
 winget_app_AntiMicro.AntiMicro
+winget_app_atom0s.Steamless
 winget_app_abrignoni.iLEAPP_cli
 winget_app_abrignoni.ALEAPP_cli
 winget_app_abrignoni.ALEAPP
