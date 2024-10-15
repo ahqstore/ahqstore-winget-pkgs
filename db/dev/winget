@@ -801,6 +801,7 @@ winget_app_Microsoft.Git
 winget_app_Microsoft.Teams
 winget_app_Microsoft.VCLibs.Desktop.14
 winget_app_Microsoft.DirectX
+winget_app_Microsoft.Office
 winget_app_Microsoft.VFSforGit
 winget_app_Microsoft.LogParser
 winget_app_Microsoft.DotNet.DesktopRuntime.7
