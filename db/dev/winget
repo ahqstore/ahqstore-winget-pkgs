@@ -1284,6 +1284,7 @@ winget_app_ntwind.AltTabTer
 winget_app_NumeRe.NumeRe
 winget_app_NSIS.NSIS
 winget_app_Npackd.Npackd
+winget_app_NativeSoft.NativeRest
 winget_app_Niimbot.NIIMBOT
 winget_app_netless_io.flat
 winget_app_NCSoft.Purple
@@ -1407,6 +1408,7 @@ winget_app_NTKERNEL.WireSockVPNGateway
 winget_app_NTKERNEL.WireSockVPNClient
 winget_app_NHNPAYCO.PayCoOrder
 winget_app_Nanoleaf.NanoleafDesktop
+winget_app_Nickvision.Parabolic
 winget_app_NirSoft.AppCrashView
 winget_app_NirSoft.SimpleProgramDebugger
 winget_app_NirSoft.DownTester
@@ -1714,6 +1716,7 @@ winget_app_Zheguisoft.zg_mdm
 winget_app_Zheguisoft.zg_zsso
 winget_app_zarunbal.LogExpert
 winget_app_Ziad.TCG
+winget_app_ZhaoKeli.FastGestures
 winget_app_Z_DBackup.Z_Cron
 winget_app_z_____________.cpod
 winget_app_zigtools.zls
@@ -2409,6 +2412,7 @@ winget_app_RIA.DigiDoc4
 winget_app_RealtimeSoft.UltraMon
 winget_app_ryanSn.winMoji
 winget_app_RichardsonSoftware.RazorSQL
+winget_app_Romanitho.Winget_AutoUpdate
 winget_app_Rockbox.RockboxUtility
 winget_app_roryok.poe_writer
 winget_app_Retroshare.Retroshare
@@ -2826,7 +2830,6 @@ winget_app_Sigil_Ebook.Sigil
 winget_app_Sigil_Ebook.PageEdit
 winget_app_solemnwarning.rehex
 winget_app_SourceGear.DiffMerge
-winget_app_suse.RancherDesktop
 winget_app_Spatie.Ray
 winget_app_StartIsBack.StartAllBack
 winget_app_StartIsBack.StartIsBack
@@ -3123,7 +3126,6 @@ winget_app_KizunaAIInc.kzn
 winget_app_KoushikNaskar.InteractiveDataEditor
 winget_app_Kitemaker.Kitemaker
 winget_app_Kingdee.CloudHub
-winget_app_kalilinux.kalilinux
 winget_app_kymoto.InnoScriptStudio
 winget_app_Kairos.DuetDisplay
 winget_app_KRTirtho.Flemozi
