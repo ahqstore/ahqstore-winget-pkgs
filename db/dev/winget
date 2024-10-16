@@ -801,7 +801,6 @@ winget_app_Microsoft.Git
 winget_app_Microsoft.Teams
 winget_app_Microsoft.VCLibs.Desktop.14
 winget_app_Microsoft.DirectX
-winget_app_Microsoft.Office
 winget_app_Microsoft.VFSforGit
 winget_app_Microsoft.LogParser
 winget_app_Microsoft.DotNet.DesktopRuntime.7
@@ -1195,7 +1194,6 @@ winget_app_MoonchildProductions.PaleMoon
 winget_app_Meazure.GuardianBrowser
 winget_app_Modyfi.Modyfi
 winget_app_MehediHassan.Tweeten
-winget_app_Millie.millie
 winget_app_Muhammed87643.Funkin
 winget_app_MichaelTippach.ASIO4ALL
 winget_app_Mamba.Micromamba
@@ -2149,6 +2147,7 @@ winget_app_OpenOSRS.OpenOSRSLauncher
 winget_app_oldj.switchhosts
 winget_app_Olivia.VIA
 winget_app_orbatschow.kontext
+winget_app_OK1DIX.VUSC4WIN
 winget_app_osquery.osquery
 winget_app_OpenSource.Grisbi
 winget_app_osk.tetr
@@ -3167,6 +3166,7 @@ winget_app_KDani_99.timetable
 winget_app_KYDronePilot.SpaceEye
 winget_app_karakun.OpenWebStart
 winget_app_Krisp.Krisp
+winget_app_KitLib.Kite
 winget_app_klatexformula.klatexformula
 winget_app_ktsu.BuildMonitor
 winget_app_KN4CRD.JS8Call
@@ -4713,6 +4713,7 @@ winget_app_VideoLAN.x264
 winget_app_vividos.winLAME
 winget_app_vassalengine.VASSAL
 winget_app_Vendicated.Vencord
+winget_app_vcsjones.AzureSignTool
 winget_app_Vogan.TinyCodes
 winget_app_VideoComparer.VideoComparer
 winget_app_ViGEm.ViGEmBus
