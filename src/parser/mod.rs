@@ -117,8 +117,6 @@ pub fn parser() {
   let _ = fs::remove_dir_all("./db");
   let _ = fs::create_dir_all("./db");
 
-  let _ = fs::copy("./home.json", "./db/home.json");
-
   let mut map = Map::new();
 
   for letter in fs::read_dir("./winget-pkgs/manifests").unwrap() {
@@ -259,7 +257,6 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
             appDisplayName: en_us.PackageName,
             appId: format!("winget_app_{}", app_id.replace("-", "_")),
             appShortcutName: format!("Winget Application"),
-            app_page: en_us.PackageUrl,
             authorId: format!("winget"),
             description: format!("{}\n\n{}\n{}", en_us.ShortDescription.unwrap_or_default(), en_us.Description.unwrap_or_default(), en_us.ReleaseNotes.unwrap_or_default()),
             displayImages: vec![],
@@ -290,7 +287,8 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
               linuxArm7: None,
               win32,
               winarm
-            }
+            },
+            verified: false
           };
 
           println!("✅ Added {author} {app_id}");
