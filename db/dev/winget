@@ -1832,6 +1832,7 @@ winget_app_emoacht.Monitorian
 winget_app_EliFulkerson.tcping
 winget_app_EEO.ClassInX
 winget_app_EEO.ClassIn
+winget_app_EEO.CamIn
 winget_app_eFMer.BoincTasks
 winget_app_emqx.mqttx
 winget_app_EvgenyCherpak.RemoteHelperApp
@@ -2955,6 +2956,7 @@ winget_app_RenewedVision.ProPresenter
 winget_app_RavenProject.RavenCore
 winget_app_RobertFFrasca.PDFKeeper
 winget_app_RejminetGroupInc.PDFShow
+winget_app_raphamorim.rio
 winget_app_RedactSoftware.Redact
 winget_app_Rhinode.TradingPaints
 winget_app_RadiantCommunity.GtkRadiant
@@ -4278,6 +4280,7 @@ winget_app_CrystalRich.USBSafelyRemove
 winget_app_code52.Carnac
 winget_app_CatoNetworks.CatoClient
 winget_app_CuteChess.CuteChess
+winget_app_CloudStack.Msty
 winget_app_Chromium.ChromeDriver
 winget_app_CapricornConsultingGmbH.Vigoon
 winget_app_ClamWin.ClamWin
