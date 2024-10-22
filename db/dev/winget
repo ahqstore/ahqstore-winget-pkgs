@@ -833,6 +833,7 @@ winget_app_GoldenDict.GoldenDict
 winget_app_GOG.Galaxy
 winget_app_GodotEngine.GodotEngine
 winget_app_gaphor.gaphor
+winget_app_maqibin.MDXNotes
 winget_app_M2Team.NanaZip
 winget_app_Melvin_Abraham.Google_Assistant
 winget_app_MatteoRossi.iCopy
@@ -1538,6 +1539,7 @@ winget_app_OpenTTD.OpenTTD
 winget_app_OxfordUniversityPressELT.OxfordLearnersBookshelf
 winget_app_OmsiLauncher.OmsiLauncher
 winget_app_OneTagger.OneTagger
+winget_app_OffSec.KaliLinux
 winget_app_OV2.RapidCRCUnicode
 winget_app_Optimate.OptimateSOLIDWORKSPlugin
 winget_app_OpenCPN.OpenCPN
@@ -1586,6 +1588,7 @@ winget_app_OptiPNG.OptiPNG
 winget_app_OPAutoClicker.OPAutoClicker
 winget_app_OpenShopChannel.Downloader
 winget_app_OISF.Suricata
+winget_app_OWASP.ThreatDragon
 winget_app_OWASP.Amass
 winget_app_OpenChemistry.Avogadro2
 winget_app_OramaInteractive.Pixelorama
@@ -1826,6 +1829,7 @@ winget_app_Electron_Store.electron_app_store
 winget_app_Ethereum.geth
 winget_app_Ethereum.grid
 winget_app_emoacht.Monitorian
+winget_app_EliFulkerson.tcping
 winget_app_EEO.ClassInX
 winget_app_EEO.ClassIn
 winget_app_eFMer.BoincTasks
@@ -4315,6 +4319,7 @@ winget_app_JulienCagniart.anyquery
 winget_app_JonatanHeyman.Heynote
 winget_app_JustinPaulSilva.Superscript
 winget_app_just_install.just_install
+winget_app_Jacalz.Rymdport
 winget_app_JvanKatwijk.Qt_DAB
 winget_app_JuneFabrics.PdaNet
 winget_app_Jacksta.Instigator
