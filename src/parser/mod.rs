@@ -114,7 +114,7 @@ impl Map {
 
 fn fixstr(st: &str) -> String {
   st.replace(
-    "\\u",
+    "\u{a0}",
     " "
   )
 }
