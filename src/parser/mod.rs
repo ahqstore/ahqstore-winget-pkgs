@@ -82,7 +82,7 @@ impl Map {
       .write(format!("\"{}\":\"{}\"", app.appDisplayName, app.appId).as_bytes());
     let _ = self.search.write(
       format!(
-        "{{\"name:\": {:?}, \"title\": {:?}, \"id\": {:?}}}",
+        "{{\"name\": {:?}, \"title\": {:?}, \"id\": {:?}}}",
         app.appDisplayName, app.appShortcutName, app.appId
       )
       .as_bytes(),
