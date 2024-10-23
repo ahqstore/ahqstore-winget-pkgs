@@ -83,7 +83,7 @@ impl Map {
     let _ = self.search.write(
       format!(
         "{{\"name\": {:?}, \"title\": {:?}, \"id\": {:?}}}",
-        app.appDisplayName, app.appShortcutName, app.appId
+        fixstr(app.appDisplayName), fixstr(app.appShortcutName), fixstr(app.appId)
       )
       .as_bytes(),
     );
@@ -110,6 +110,13 @@ impl Map {
 
     let _ = fs::write("./db/total", self.files.to_string());
   }
+}
+
+fn fixstr(st: &str) -> String {
+  st.replace(
+    "\\u",
+    " "
+  )
 }
 
 pub fn parser() {
