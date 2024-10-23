@@ -83,7 +83,7 @@ impl Map {
     let _ = self.search.write(
       format!(
         "{{\"name\": {:?}, \"title\": {:?}, \"id\": {:?}}}",
-        fixstr(app.appDisplayName), fixstr(app.appShortcutName), fixstr(app.appId)
+        fixstr(&app.appDisplayName), fixstr(&app.appShortcutName), fixstr(&app.appId)
       )
       .as_bytes(),
     );
