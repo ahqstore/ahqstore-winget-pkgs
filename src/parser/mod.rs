@@ -230,6 +230,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
               "msi" => Some(InstallerFormat::WindowsInstallerMsi),
               "wix" => Some(InstallerFormat::WindowsInstallerMsi),
               "exe" => Some(InstallerFormat::WindowsInstallerExe),
+              "nullsoft" => Some(InstallerFormat::WindowsInstallerExe),
               _ => None,
             };
         
