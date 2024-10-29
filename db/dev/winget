@@ -3285,7 +3285,6 @@ winget_app_Insecure.Npcap
 winget_app_Insecure.Nmap
 winget_app_IrisInstruments.FullWaveViewerII
 winget_app_IrfanSkiljan.IrfanView
-winget_app_ImageLine.FLStudio
 winget_app_IniTranslator.IniTranslator
 winget_app_IG.IGClient
 winget_app_IcoFXSoftware.icofx
@@ -3317,11 +3316,9 @@ winget_app_ImageMagick.Q16
 winget_app_ImageMagick.Q16_HDRI
 winget_app_Insomnia.Inso
 winget_app_Insomnia.Insomnia
-winget_app_Icedrive.Desktop
 winget_app_Iconscout.Iconscout
 winget_app_Initex.Proxifier
 winget_app_Initex.YogaDNS
-winget_app_IurieNistor.GeonkickPlugin
 winget_app_iamxiaojianzheng.jd_gui
 winget_app_Infracost.Infracost
 winget_app_InfiniteRed.Reactotron
@@ -5601,7 +5598,6 @@ winget_app_YouXiao.YXCalendar
 winget_app_YouXiao.YXFile
 winget_app_YaCy.YaCy
 winget_app_YoYoGames.GameMaker.Studio.2
-winget_app_YoYoGames.GameMaker.Studio.1
 winget_app_Youqu.ToDesk
 winget_app_yt_dlg.yt_dlg
 winget_app_yafp.ttth
