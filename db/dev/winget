@@ -1527,6 +1527,7 @@ winget_app_Oracle.MySQLNotifier
 winget_app_Oracle.MySQLWorkbench
 winget_app_Oracle.JavaRuntimeEnvironment
 winget_app_OpenAudible.OpenAudible
+winget_app_Okabe_Rintarou_0.SJTUCanvasHelper
 winget_app_Okabe_Rintarou_0.JboxTransferCLI
 winget_app_opentrack.opentrack
 winget_app_okkosh.fnlock
@@ -2213,6 +2214,7 @@ winget_app_TuneFlow.TuneFlow
 winget_app_Telegrafer.Telegrafer
 winget_app_TarasovArtyom.BatteryMode
 winget_app_Terraform_docs.Terraform_docs
+winget_app_TomEhlertSoftware.Snapshot
 winget_app_TorProject.TorBrowser
 winget_app_trzsz.trzsz
 winget_app_trzsz.tssh
