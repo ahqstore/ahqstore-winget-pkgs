@@ -2659,6 +2659,7 @@ winget_app_NicoJeskeIT.MasterVolumeSync
 winget_app_Nikkho.FileOptimizer
 winget_app_NetEase.CloudMusicXStudio
 winget_app_NetEase.YoudaoNote
+winget_app_NetEase.GameViewer
 winget_app_NetEase.MailMaster
 winget_app_NetEase.YoudaoTongchuan
 winget_app_NetEase.Lingxi
@@ -2784,6 +2785,7 @@ winget_app_VolkerFischer.Jamulus
 winget_app_VisIt.VisIt
 winget_app_VaclavSlavik.Poedit
 winget_app_VoodooSoft.VoodooShield
+winget_app_VoodooSoft.DefenderUI
 winget_app_vcmi.vcmi
 winget_app_VincentL.Harmony
 winget_app_VictorIX.BlenderLauncher
