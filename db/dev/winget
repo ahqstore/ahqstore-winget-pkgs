@@ -49,6 +49,7 @@ winget_app_Apache.DirectoryStudio
 winget_app_Apache.NetBeans
 winget_app_Apache.OpenOffice
 winget_app_AList.AList
+winget_app_AList.AListDesktop
 winget_app_AntstreamLtd.Antstream
 winget_app_aimotrens.impulsar
 winget_app_avborup.kitty
@@ -798,6 +799,7 @@ winget_app_GeekCorner.threema
 winget_app_Gcndevelopment.GNURadio
 winget_app_Gruntwork.Terragrunt
 winget_app_Gruntwork.cloud_nuke
+winget_app_GitHub.smimesign
 winget_app_GitHub.ClassroomAssistant
 winget_app_GitHub.Atom
 winget_app_GitHub.GitHubDesktop
@@ -5229,6 +5231,7 @@ winget_app_SystweakSoftware.DuplicateFilesFixer
 winget_app_SABnzbdTeam.SABnzbd
 winget_app_ScreenCloud.ScreenCloudPlayer
 winget_app_SDCC.SDCC
+winget_app_SigmaNight.basiliskLLM
 winget_app_Starship.Starship
 winget_app_Splawik.pytigon
 winget_app_sikalabs.slu
