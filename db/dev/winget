@@ -103,6 +103,7 @@ winget_app_aiko_chan_ai.DiscordBotClient
 winget_app_Altap.Salamander
 winget_app_AlDanial.Cloc
 winget_app_ayoisaiah.focus
+winget_app_AI_Shifu.ChatALL
 winget_app_Avocode.Avocode
 winget_app_ApeCloud.kbcli
 winget_app_athlabs.Spyglass
@@ -2270,7 +2271,10 @@ winget_app_HiBitSoftware.HiBitUninstaller
 winget_app_HiBitSoftware.StartUpManager
 winget_app_Hydrogen_Music.Hydrogen
 winget_app_HIKARI_FIELD.HIKARI_FIELD_CLIENT
+winget_app_HighMotionSoftware.BonAView
 winget_app_HighMotionSoftware.ImBatch
+winget_app_HighMotionSoftware.ImWatcher
+winget_app_HighMotionSoftware.VidBatch
 winget_app_HexChat.HexChat
 winget_app_HHDSoftware.FreeHexEditorNeo
 winget_app_HHDSoftware.DupeCare
