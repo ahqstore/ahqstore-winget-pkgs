@@ -1092,6 +1092,7 @@ winget_app_MKProj.Minerva
 winget_app_McServ.McServ
 winget_app_MarcinOtorowski.MSIXHero
 winget_app_Mapillary.MapillaryTools
+winget_app_Mapillary.MapillaryUploader
 winget_app_mIRC.mIRC
 winget_app_marha.VcXsrv
 winget_app_ManicTime.ManicTime
@@ -2145,7 +2146,6 @@ winget_app_TeamReadarr.Readarr
 winget_app_TaiStudio.Sofia
 winget_app_tinygo_org.tinygo
 winget_app_TenacityTeam.Tenacity
-winget_app_Taozuhong.Kangaroo
 winget_app_timche.gmail_desktop
 winget_app_Termius.Termius
 winget_app_Threema.Threema
@@ -2916,6 +2916,7 @@ winget_app_Rakuten.Viber
 winget_app_RamenSoftware.7+TaskbarTweaker
 winget_app_RamenSoftware.Windhawk
 winget_app_Rubick.Rubick
+winget_app_RabbitCompany.Passky
 winget_app_Revopoint.RevoScan
 winget_app_Rakk.TalanAir
 winget_app_RedHat.VirtViewer
@@ -2932,7 +2933,6 @@ winget_app_RAGEMultiplayerTeam.RAGEMultiplayer
 winget_app_RickMeyers.e_Sword
 winget_app_ReincubateLtd.iPhoneBackupExtractorSetup
 winget_app_ReincubateLtd.CamoStudio
-winget_app_Rabbit_Company.Passky
 winget_app_RobinJullian.Shuttle
 winget_app_RemNote.RemNote
 winget_app_Rockbox.RockboxUtility
@@ -3265,6 +3265,7 @@ winget_app_Prog.ProgFinder
 winget_app_Prog.ProgTV
 winget_app_pluveto.FlyDav
 winget_app_pluveto.Upgit
+winget_app_PawelSalawa.SQLiteStudio
 winget_app_POQDavid.PotatoWall
 winget_app_pit_ray.win_vind
 winget_app_PCGen.PCGen
@@ -3531,6 +3532,7 @@ winget_app_KDE.Falkon
 winget_app_KDE.NeoChat
 winget_app_KDE.Krita
 winget_app_KDE.KDiff3
+winget_app_KDE.CrowTranslate
 winget_app_kmeleonbrowser.K_Meleon
 winget_app_k3d.k3d
 winget_app_KraXen72.crankshaft
