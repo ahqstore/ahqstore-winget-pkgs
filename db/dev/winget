@@ -658,6 +658,7 @@ winget_app_GalvanizeInc.GalvanizeCirrus
 winget_app_GitExtensionsTeam.GitExtensions
 winget_app_gerardog.gsudo
 winget_app_GnuWin32.Gperf
+winget_app_GnuWin32.File
 winget_app_GnuWin32.Cpio
 winget_app_GnuWin32.FindUtils
 winget_app_GnuWin32.Make
