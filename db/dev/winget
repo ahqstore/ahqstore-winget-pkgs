@@ -102,6 +102,7 @@ winget_app_AtomicJar.Testcontainers
 winget_app_aiko_chan_ai.DiscordBotClient
 winget_app_Altap.Salamander
 winget_app_AlDanial.Cloc
+winget_app_ayoisaiah.f2
 winget_app_ayoisaiah.focus
 winget_app_AI_Shifu.ChatALL
 winget_app_Avocode.Avocode
@@ -5739,6 +5740,7 @@ winget_app_LyonBros.Turtl
 winget_app_LegacyInteractive.Launcher
 winget_app_LacunaSoftware.WebPKI
 winget_app_Lansweeper.LsAgent
+winget_app_Litecoin.Core
 winget_app_LoreSoft.MSBuildCommunityTasks
 winget_app_liberodark.ODrive
 winget_app_lode.lode
