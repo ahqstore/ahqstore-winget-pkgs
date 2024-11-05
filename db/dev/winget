@@ -2334,6 +2334,7 @@ winget_app_horsicq.DIE_engine
 winget_app_Hasleo.BackupSuiteFree
 winget_app_hickford.git_credential_oauth
 winget_app_hickford.git_credential_azure
+winget_app_Hyperion.Hyperion
 winget_app_hpjansson.Chafa
 winget_app_HeroicGamesLauncher.HeroicGamesLauncher
 winget_app_Hexandcube.DesktopIconToggle
@@ -2342,7 +2343,9 @@ winget_app_Headwindsim.HeadwindInstaller
 winget_app_hwtnb.SylphyHornPlus
 winget_app_HBK.TEDS_Editor
 winget_app_hakjav.KeyPrank
+winget_app_High_Logic.MainType
 winget_app_High_Logic.FontCreator
+winget_app_High_Logic.Scanahand
 winget_app_HiroshiFuu.onecopy
 winget_app_HTTPToolKit.HTTPToolKit
 winget_app_HandheldGroup.MaxGoWindows
