@@ -2497,6 +2497,7 @@ winget_app_NathanBeals.WinSSH_Pageant
 winget_app_NIS.One_Click_Backup
 winget_app_NathanMoinvaziri.ExtractNow
 winget_app_NCSoft.Purple
+winget_app_Narazaka.vrc_tail
 winget_app_NSSM.NSSM
 winget_app_Nlitesoft.NTLite
 winget_app_Nefarius.HidHide
@@ -3392,7 +3393,6 @@ winget_app_IObit.MalwareFighter
 winget_app_IObit.IObitUnlocker
 winget_app_IObit.IObitSoftwareUpdater
 winget_app_IObit.DriverBooster
-winget_app_IObit.AdvancedSystemCare
 winget_app_IObit.iFunScreenshot
 winget_app_IObit.RandomPasswordGenerator
 winget_app_IObit.IObitSysInfo
