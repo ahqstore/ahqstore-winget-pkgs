@@ -2652,6 +2652,7 @@ winget_app_NewTek.NDI5Runtime
 winget_app_NickGasson.NVC
 winget_app_Nextcloud.NextcloudDesktop
 winget_app_NAVERCloudCorp.NAVERWORKSDrive
+winget_app_NextDNS.NextDNS
 winget_app_NAVERWEBTOONLtd.SeriesComicViewer
 winget_app_nomic.gpt4all
 winget_app_NuitsJp.ClaudeToZenn
@@ -4631,6 +4632,7 @@ winget_app_Basedash.Basedash
 winget_app_bshuzhang.PPLink
 winget_app_BlueStack.BlueStacks
 winget_app_BeagleSoftware.BeagleEditor
+winget_app_BeagleSoftware.BeTL
 winget_app_Buttercup.Buttercup
 winget_app_Bin_Huang.Chatbox
 winget_app_benny93.kafui
