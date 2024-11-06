@@ -883,6 +883,7 @@ winget_app_Microsoft.AzureCLI
 winget_app_Microsoft.DevHome
 winget_app_Microsoft.Teams
 winget_app_Microsoft.TimeTravelDebugging
+winget_app_Microsoft.RemoteHelp
 winget_app_Microsoft.OfficeDeploymentTool
 winget_app_Microsoft.Sqlcmd
 winget_app_Microsoft.Azure.AZCopy.10
@@ -2453,6 +2454,7 @@ winget_app_QmmpDevelopmentTeam.qmmp
 winget_app_qotop.SpaceEngine
 winget_app_qjfoidnh.BaiduPCS_Go
 winget_app_Qt.QtDesigner
+winget_app_QXYZLabs.Sanctum
 winget_app_quotient_im.Quaternion
 winget_app_Qalculate.Qalculate
 winget_app_QMK.QMKToolbox
@@ -4881,6 +4883,7 @@ winget_app_WiXToolset.WiXCLI
 winget_app_WasmEdge.WasmEdge
 winget_app_Winamp.Winamp
 winget_app_Wasmer.Wasmer
+winget_app_Wakatime.DesktopWakatime
 winget_app_Wimysoft.WimyGit
 winget_app_Wisedu.CAT
 winget_app_WalkoverTechnologies.giddh
