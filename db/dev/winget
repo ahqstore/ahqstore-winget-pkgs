@@ -2770,6 +2770,7 @@ winget_app_Vertexshare.WebpConverter
 winget_app_Vertexshare.HEICFileConverter
 winget_app_VirtusLab.ScalaCLI
 winget_app_VMPlex.VMPlex
+winget_app_vkbo.novelWriter
 winget_app_VideoComparer.VideoComparer
 winget_app_VisualParadigm.Community
 winget_app_VSCodium.VSCodium
@@ -4887,6 +4888,7 @@ winget_app_Winamp.Winamp
 winget_app_Wasmer.Wasmer
 winget_app_Wakatime.DesktopWakatime
 winget_app_Wimysoft.WimyGit
+winget_app_Waytech.CloudDrive2
 winget_app_Wisedu.CAT
 winget_app_WalkoverTechnologies.giddh
 winget_app_WinUAE.WinUAE
