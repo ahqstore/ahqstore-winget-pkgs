@@ -1731,6 +1731,7 @@ winget_app_ElementLabs.LMStudio
 winget_app_EchoLink.EchoLink
 winget_app_espeak.espeak
 winget_app_EQAditu.AdvancedCombatTracker
+winget_app_everauto.zTasker
 winget_app_eat_pray_ai.yutu
 winget_app_eMClient.eMClient
 winget_app_EmoteInteractive.RemoteMouse
@@ -4789,6 +4790,7 @@ winget_app_BinaryMark.BatchImageConverter
 winget_app_BinaryMark.StreamingVideoDownloader
 winget_app_BinaryMark.FileHashGenerator
 winget_app_BinaryMark.BatchImageResizer
+winget_app_bluenviron.mediamtx
 winget_app_beekeeper_studio.beekeeper_studio
 winget_app_Beeper.Beeper
 winget_app_BenjaminLSR.HandheldCompanion
