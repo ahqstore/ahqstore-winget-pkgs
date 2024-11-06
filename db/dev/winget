@@ -3403,6 +3403,7 @@ winget_app_IObit.MalwareFighter
 winget_app_IObit.IObitUnlocker
 winget_app_IObit.IObitSoftwareUpdater
 winget_app_IObit.DriverBooster
+winget_app_IObit.AdvancedSystemCare
 winget_app_IObit.iFunScreenshot
 winget_app_IObit.RandomPasswordGenerator
 winget_app_IObit.IObitSysInfo
@@ -4458,6 +4459,7 @@ winget_app_jayhuang75.med
 winget_app_JanGrzegorowski.TimeSeriesAdmin
 winget_app_JanJoneš.ipaSim
 winget_app_jhen0409.ReactNativeDebugger
+winget_app_jEdit.jEdit
 winget_app_Jaquadro.NBTExplorer
 winget_app_Jigsaw.OutlineManager
 winget_app_Jelmerro.Vieb
@@ -4554,6 +4556,7 @@ winget_app_BlueBubbles.BlueBubbles
 winget_app_binbat.whipinto
 winget_app_binbat.liveman
 winget_app_binbat.whepfrom
+winget_app_binbat.net4mqtt
 winget_app_binbat.live777
 winget_app_BestNotes.BestNotes
 winget_app_ByteDance.tosutil
