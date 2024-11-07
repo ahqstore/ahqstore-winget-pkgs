@@ -564,6 +564,7 @@ winget_app_Fangamer.Deltarune
 winget_app_fjsoft.MyPhoneExplorer
 winget_app_FineprintSoftware.FinePrint
 winget_app_FineprintSoftware.pdfFactory
+winget_app_Floweb.Floweb
 winget_app_Foxlider.FASTER
 winget_app_frippery.busybox_w32
 winget_app_fhanau.Efficient_Compression_Tool
@@ -3128,6 +3129,7 @@ winget_app_Paragon.HFS+
 winget_app_Paragon.LinuxFileSystems
 winget_app_Paragon.PartitionManagerCE
 winget_app_Paragon.APFS
+winget_app_ProjectLibre.ProjectLibre
 winget_app_PBH_BTN.PeerBanHelper
 winget_app_PokeMMO.PokeMMO
 winget_app_pixivInc.VRoidStudio
