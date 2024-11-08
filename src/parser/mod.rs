@@ -239,29 +239,39 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
           let mut win32 = None;
           let mut winarm = None;
 
-          let mut msi: Option<Installer> = None;
-          let mut exe: Option<Installer> = None;
+          let mut msi: (Option<Installer>, Option<Installer>) = (None, None);
+          let mut exe: (Option<Installer>, Option<Installer>) = (None, None);
+
           installer.Installers.into_iter().for_each(|x| {
             let type_msi = x.InstallerUrl.ends_with(".msi");
             let type_exe = x.InstallerUrl.ends_with(".exe");
 
             let locale = x.InstallerLocale.clone();
+            let arch = &x.Architecture;
 
             if &locale.unwrap_or("en-US".into()) == "en-US" {
-              if type_msi {
-                msi = Some(x);
-              } else if type_exe {
-                exe = Some(x);
+              if type_msi && &arch == &"x64" {
+                msi.0 = Some(x);
+              } else if type_msi && &arch == &"arm64" {
+                msi.1 = Some(x);
+              } else if type_exe && &arch == &"x64" {
+                exe.0 = Some(x);
+              } else if type_exe && &arch == &"arm64" {
+                exe.1 = Some(x);
               }
             }
           });
 
-          let x = msi.map_or_else(
-            || exe.and_then(|x| Some((InstallerFormat::WindowsInstallerExe, x))),
+          let x64_dat = msi.0.map_or_else(
+            || exe.0.and_then(|x| Some((InstallerFormat::WindowsInstallerExe, x))),
+            |x| Some((InstallerFormat::WindowsInstallerMsi, x)),
+          );
+          let arm64_dat = msi.1.map_or_else(
+            || exe.1.and_then(|x| Some((InstallerFormat::WindowsInstallerExe, x))),
             |x| Some((InstallerFormat::WindowsInstallerMsi, x)),
           );
 
-          if let Some((installer, x)) = x {
+          let mut parse = |x: Option<(InstallerFormat, Installer)>| if let Some((installer, x)) = x {
             if &x.Architecture == "x64" {
               x64.installerType = installer;
 
@@ -283,7 +293,10 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
                 installerArgs: None,
               });
             }
-          }
+          };
+
+          parse(x64_dat);
+          parse(arm64_dat);
 
           let app = AHQStoreApplication {
             appDisplayName: en_us.PackageName,
