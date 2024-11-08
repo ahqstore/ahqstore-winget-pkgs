@@ -1,7 +1,12 @@
-use ahqstore_types::{AHQStoreApplication, AppRepo, DownloadUrl, InstallerFormat, InstallerOptions, InstallerOptionsWindows};
+use ahqstore_types::{
+  winget::Installer, AHQStoreApplication, AppRepo, DownloadUrl, InstallerFormat, InstallerOptions,
+  InstallerOptionsWindows,
+};
 use serde_yml::from_str;
 use std::{
-  collections::HashMap, fs::{self, File}, io::Write
+  collections::HashMap,
+  fs::{self, File},
+  io::Write,
 };
 use version_compare::Version;
 
@@ -83,7 +88,9 @@ impl Map {
     let _ = self.search.write(
       format!(
         "{{\"name\": {:?}, \"title\": {:?}, \"id\": {:?}}}",
-        fixstr(&app.appDisplayName), fixstr(&app.appShortcutName), fixstr(&app.appId)
+        fixstr(&app.appDisplayName),
+        fixstr(&app.appShortcutName),
+        fixstr(&app.appId)
       )
       .as_bytes(),
     );
@@ -95,7 +102,7 @@ impl Map {
     let app_str = serde_json::to_string(&app).unwrap();
 
     let app_export_path = format!("./db/apps/{}.json", &app.appId);
-    
+
     let _ = fs::write(app_export_path, app_str);
 
     let _ = fs::create_dir_all(format!("./db/res/{}", &app.appId));
@@ -113,10 +120,7 @@ impl Map {
 }
 
 fn fixstr(st: &str) -> String {
-  st.replace(
-    "\u{a0}",
-    " "
-  )
+  st.replace("\u{a0}", " ")
 }
 
 pub fn parser() {
@@ -154,7 +158,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
     let app = app.to_str().unwrap();
 
     if app == ".validation" {
-      continue
+      continue;
     }
 
     let inside = fs::read_dir(format!(
@@ -164,7 +168,11 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
     .unwrap()
     .into_iter();
 
-    let inside = inside.map(|x| x.unwrap()).filter(|x| x.file_type().unwrap().is_dir()).map(|x| x.file_name()).collect::<Vec<_>>();
+    let inside = inside
+      .map(|x| x.unwrap())
+      .filter(|x| x.file_type().unwrap().is_dir())
+      .map(|x| x.file_name())
+      .collect::<Vec<_>>();
     let inside = inside.into_iter();
     let inside = inside.filter(|x| x != ".validation").collect::<Vec<_>>();
     let inside = inside.into_iter();
@@ -203,13 +211,20 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
       let letter = letter.to_lowercase();
 
       let app_id = format!("{}.{}", &author.replace("/", "."), &app);
-      let en_us = format!("./winget-pkgs/manifests/{letter}/{author}/{app}/{v}/{app_id}.locale.en-US.yaml");
-      let installer = format!("./winget-pkgs/manifests/{letter}/{author}/{app}/{v}/{app_id}.installer.yaml");
+      let en_us =
+        format!("./winget-pkgs/manifests/{letter}/{author}/{app}/{v}/{app_id}.locale.en-US.yaml");
+      let installer =
+        format!("./winget-pkgs/manifests/{letter}/{author}/{app}/{v}/{app_id}.installer.yaml");
 
-      if let (Ok(en_us), Ok(installer)) = (fs::read_to_string(&en_us), fs::read_to_string(&installer)) {
-        use ahqstore_types::winget::{WingetApplication, InstallerScheme};
+      if let (Ok(en_us), Ok(installer)) =
+        (fs::read_to_string(&en_us), fs::read_to_string(&installer))
+      {
+        use ahqstore_types::winget::{InstallerScheme, WingetApplication};
 
-        if let (Ok(en_us), Ok(installer)) = (from_str::<WingetApplication>(&en_us), from_str::<InstallerScheme>(&installer)) {
+        if let (Ok(en_us), Ok(installer)) = (
+          from_str::<WingetApplication>(&en_us),
+          from_str::<InstallerScheme>(&installer),
+        ) {
           let mut arm = DownloadUrl {
             asset: "".into(),
             installerType: InstallerFormat::WindowsInstallerMsi,
@@ -220,52 +235,67 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
             installerType: InstallerFormat::WindowsInstallerMsi,
             url: "".into(),
           };
-        
+
           let mut win32 = None;
           let mut winarm = None;
-        
+
+          let mut msi: Option<Installer> = None;
+          let mut exe: Option<Installer> = None;
           installer.Installers.into_iter().for_each(|x| {
-            let installer = x.InstallerType.unwrap_or("exe".into());
-            let installer = match installer.as_str() {
-              "msi" => Some(InstallerFormat::WindowsInstallerMsi),
-              "wix" => Some(InstallerFormat::WindowsInstallerMsi),
-              "exe" => Some(InstallerFormat::WindowsInstallerExe),
-              _ => None,
-            };
-        
-            if installer.is_some() && &x.InstallerLocale.unwrap_or("en-US".into()) == "en-US" {
-              let r#type = installer.unwrap();
-        
-              if &x.Architecture == "x64" {
-                x64.installerType = r#type;
-        
-                x64.url = x.InstallerUrl;
-        
-                win32 = Some(InstallerOptionsWindows {
-                  assetId: 1,
-                  exec: None,
-                  installerArgs: None,
-                });
-              } else if &x.Architecture == "arm64" {
-                arm.installerType = r#type;
-        
-                arm.url = x.InstallerUrl;
-        
-                winarm = Some(InstallerOptionsWindows {
-                  assetId: 0,
-                  exec: None,
-                  installerArgs: None,
-                });
+            let type_msi = x.InstallerUrl.ends_with(".msi");
+            let type_exe = x.InstallerUrl.ends_with(".exe");
+
+            let locale = x.InstallerLocale.clone();
+
+            if &locale.unwrap_or("en-US".into()) == "en-US" {
+              if type_msi {
+                msi = Some(x);
+              } else if type_exe {
+                exe = Some(x);
               }
             }
           });
-          
+
+          let x = msi.map_or_else(
+            || exe.and_then(|x| Some((InstallerFormat::WindowsInstallerExe, x))),
+            |x| Some((InstallerFormat::WindowsInstallerMsi, x)),
+          );
+
+          if let Some((installer, x)) = x {
+            if &x.Architecture == "x64" {
+              x64.installerType = installer;
+
+              x64.url = x.InstallerUrl;
+
+              win32 = Some(InstallerOptionsWindows {
+                assetId: 1,
+                exec: None,
+                installerArgs: None,
+              });
+            } else if &x.Architecture == "arm64" {
+              arm.installerType = installer;
+
+              arm.url = x.InstallerUrl;
+
+              winarm = Some(InstallerOptionsWindows {
+                assetId: 0,
+                exec: None,
+                installerArgs: None,
+              });
+            }
+          }
+
           let app = AHQStoreApplication {
             appDisplayName: en_us.PackageName,
             appId: format!("winget_app_{}", app_id.replace("-", "_")),
             appShortcutName: format!("Winget Application"),
             authorId: format!("winget"),
-            description: format!("{}\n\n{}\n{}", en_us.ShortDescription.unwrap_or_default(), en_us.Description.unwrap_or_default(), en_us.ReleaseNotes.unwrap_or_default()),
+            description: format!(
+              "{}\n\n{}\n{}",
+              en_us.ShortDescription.unwrap_or_default(),
+              en_us.Description.unwrap_or_default(),
+              en_us.ReleaseNotes.unwrap_or_default()
+            ),
             displayImages: vec![],
             releaseTagName: format!("winget-{}", v),
             version: v,
@@ -293,9 +323,9 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
               linuxArm64: None,
               linuxArm7: None,
               win32,
-              winarm
+              winarm,
             },
-            verified: false
+            verified: false,
           };
 
           println!("✅ Added {author} {app_id}");
@@ -308,10 +338,10 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
         println!("⚠️ Cancelled Author: {author} App: {app} Ver: {v:?}");
       }
     }
-    
+
     for product in inside.filter(|x| Version::from(x.to_str().unwrap_or("unknown")).is_none()) {
       if product.to_str().unwrap_or(".yaml").ends_with(".yaml") {
-        continue
+        continue;
       }
 
       app_parse(
@@ -320,6 +350,5 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
         map,
       );
     }
-    
   }
 }
