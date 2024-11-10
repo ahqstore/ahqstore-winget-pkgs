@@ -1025,6 +1025,7 @@ winget_app_Meta.Zstandard
 winget_app_MOTU.MSeries
 winget_app_Modrinth.ModrinthApp
 winget_app_MehediHassan.Tweeten
+winget_app_MITK.MITK
 winget_app_Mamba.Micromamba
 winget_app_MusicBee.MusicBee
 winget_app_Mayakron.AcrylicDNS
@@ -1775,6 +1776,7 @@ winget_app_Envoy49.go_spotify_cli
 winget_app_Eliot.UEExplorer
 winget_app_EnderbytePrograms.PyinstallerHelper
 winget_app_Evernote.Evernote
+winget_app_EMQ.MQTTX
 winget_app_EPA.SWMM
 winget_app_Empoche.Empoche
 winget_app_EdrawSoft.MindMaster
@@ -3724,6 +3726,7 @@ winget_app_dechamps.FlexASIO
 winget_app_DrummerSi.TaskSeparator11
 winget_app_DoomsdayEngine.DoomsdayEngine
 winget_app_Decred.Decrediton
+winget_app_DevelopedMethods.playit
 winget_app_DavidMeeker.FEMM
 winget_app_DuoSecurity.Duo2FAAuthenticationforWindows
 winget_app_DuoSecurity.DuoDeviceHealth
@@ -5174,7 +5177,6 @@ winget_app_SmartBear.SoapUI
 winget_app_Saxo_Broko.GingerChrome
 winget_app_Saxo_Broko.Officialapp
 winget_app_Status.Status
-winget_app_Schrodinger.Pymol
 winget_app_sordum.HibernateEnableOrDisable
 winget_app_shadowsocks.shadowsocks_windows
 winget_app_Stoplight.Prism
@@ -5332,6 +5334,7 @@ winget_app_Snaz.Snaz
 winget_app_Sysprogs.SmarTTY
 winget_app_SteelSeries.GG
 winget_app_SteelSeries.SteelSeriesEngine
+winget_app_Shilihu.Mubu
 winget_app_Serraniel.DiscordMediaLoader
 winget_app_syvaidya.openstego
 winget_app_SmartHoldemDAPPs.heads_tails
