@@ -1456,6 +1456,7 @@ winget_app_moshfeu.y2mp3
 winget_app_Mattermost.Focalboard
 winget_app_Mattermost.MattermostDesktop
 winget_app_murgatt.recode_converter
+winget_app_MevLyshkin.uec
 winget_app_Mr1cecream.Modbreeze
 winget_app_MultiMC.MultiMC
 winget_app_MndpTray.Core
@@ -5627,6 +5628,7 @@ winget_app_UbiquitiInc.WiFimanDesktop
 winget_app_UbiquitiInc.IdentityDesktop
 winget_app_YendisEntertainment.KrunkerClient
 winget_app_Yarn.Yarn
+winget_app_YARC.YARCLauncher
 winget_app_Yandex.Browser
 winget_app_Yandex.Music
 winget_app_Yandex.Messenger
