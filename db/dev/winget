@@ -1167,6 +1167,7 @@ winget_app_mar10.pyftpsync
 winget_app_mar10.wsgidav
 winget_app_mpv.net
 winget_app_MiXXX.MiXXX
+winget_app_Mergiraf.Mergiraf
 winget_app_MaLuns.wallhaven_electron
 winget_app_MatthewMalensek.3RVX
 winget_app_Musescore.Musescore
@@ -4258,6 +4259,7 @@ winget_app_cedric.view2er
 winget_app_Cockatrice.Cockatrice
 winget_app_ClickUp.ClickUp
 winget_app_Chia_Lung.Kaku
+winget_app_CmdUtil.WhatTheFile
 winget_app_Coq.CoqPlatform
 winget_app_CommandLine.Wave
 winget_app_ChilliBits.Spice
