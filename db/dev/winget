@@ -952,6 +952,7 @@ winget_app_Microsoft.winfile
 winget_app_Microsoft.MSIXCore
 winget_app_Microsoft.DotNet.DesktopRuntime.5
 winget_app_Microsoft.DotNet.DesktopRuntime.Preview
+winget_app_Microsoft.DotNet.DesktopRuntime.9
 winget_app_Microsoft.DotNet.DesktopRuntime.6
 winget_app_Microsoft.DotNet.DesktopRuntime.7
 winget_app_Microsoft.DotNet.DesktopRuntime.3_1
@@ -959,6 +960,7 @@ winget_app_Microsoft.DotNet.DesktopRuntime.8
 winget_app_Microsoft.DotNet.AspNetCore.5
 winget_app_Microsoft.DotNet.AspNetCore.2_2_402
 winget_app_Microsoft.DotNet.AspNetCore.Preview
+winget_app_Microsoft.DotNet.AspNetCore.9
 winget_app_Microsoft.DotNet.AspNetCore.3_0
 winget_app_Microsoft.DotNet.AspNetCore.6
 winget_app_Microsoft.DotNet.AspNetCore.7
@@ -968,18 +970,21 @@ winget_app_Microsoft.DotNet.AspNetCore.8
 winget_app_Microsoft.DotNet.Framework.DeveloperPack_4
 winget_app_Microsoft.DotNet.Runtime.5
 winget_app_Microsoft.DotNet.Runtime.Preview
+winget_app_Microsoft.DotNet.Runtime.9
 winget_app_Microsoft.DotNet.Runtime.6
 winget_app_Microsoft.DotNet.Runtime.7
 winget_app_Microsoft.DotNet.Runtime.3_1
 winget_app_Microsoft.DotNet.Runtime.8
 winget_app_Microsoft.DotNet.HostingBundle.5
 winget_app_Microsoft.DotNet.HostingBundle.Preview
+winget_app_Microsoft.DotNet.HostingBundle.9
 winget_app_Microsoft.DotNet.HostingBundle.6
 winget_app_Microsoft.DotNet.HostingBundle.7
 winget_app_Microsoft.DotNet.HostingBundle.3_1
 winget_app_Microsoft.DotNet.HostingBundle.8
 winget_app_Microsoft.DotNet.SDK.5
 winget_app_Microsoft.DotNet.SDK.Preview
+winget_app_Microsoft.DotNet.SDK.9
 winget_app_Microsoft.DotNet.SDK.6
 winget_app_Microsoft.DotNet.SDK.7
 winget_app_Microsoft.DotNet.SDK.3_1
