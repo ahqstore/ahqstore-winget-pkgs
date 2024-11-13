@@ -635,6 +635,7 @@ winget_app_Geany.Geany
 winget_app_Genivia.ugrep
 winget_app_Gitleaks.Gitleaks
 winget_app_GielCobben.Caption
+winget_app_GPower.GPower
 winget_app_GOMLab.GOMPlayer
 winget_app_gittuf.gittuf
 winget_app_gdiObjects.Perspective
@@ -1412,6 +1413,7 @@ winget_app_MullvadVPN.MullvadBrowser
 winget_app_mcmilk.7zip_zstd
 winget_app_maximmax42.CustomRP
 winget_app_Malwarebytes.Privacy
+winget_app_Malwarebytes.AdwCleaner
 winget_app_Malwarebytes.Malwarebytes
 winget_app_MoheshwarAmarnathBiswas.UsefulToolsForWindows
 winget_app_matvelloso.electron_office_365
