@@ -2327,6 +2327,7 @@ winget_app_HumbleBundle.HumbleApp
 winget_app_Heroku.HerokuCLI
 winget_app_HelmutBuhler.8GadgetPack
 winget_app_HamRadioDeluxe.HamRadioDeluxe
+winget_app_HelioFM.HelioSequencer
 winget_app_herrlichmedia.Agantty
 winget_app_HeartbeatChat.Heartbeat
 winget_app_Hubitech.Reemo
@@ -5778,6 +5779,7 @@ winget_app_LeeSoft.ViPad
 winget_app_LeeSoft.ViStart
 winget_app_LBRY.LBRY
 winget_app_LinwoodCloud.Butterfly
+winget_app_lostindark.DriverStoreExplorer
 winget_app_LeadDeskLtd.LeadDesk
 winget_app_LinuxSuRen.HTTPdownloader
 winget_app_lauthieb.code_notes
