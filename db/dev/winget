@@ -1118,6 +1118,7 @@ winget_app_MatsuriDayo.NekoRay
 winget_app_MilosParipovic.OneCommander
 winget_app_MHGames.ThoseFunnyFunguloids
 winget_app_MHGames.IHaveNoTomatoes
+winget_app_MicrosoftCorporation.PowerBIReportBuilder
 winget_app_MysteriumNetwork.Mysterium
 winget_app_Makeblock.xToolCreativeSpace
 winget_app_ManticoreGames.Core
@@ -5338,6 +5339,7 @@ winget_app_Synology.ChatClient
 winget_app_Synology.ActiveBackupForBusinessAgent
 winget_app_Synology.DriveClient
 winget_app_Schezo.Lhaplus
+winget_app_Stellar.StellarCLI
 winget_app_SamHocevar.WinCompose
 winget_app_strayge.tray_monitor
 winget_app_sidneys.pb_for_desktop
