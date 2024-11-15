@@ -3698,6 +3698,7 @@ winget_app_dotenvx.dotenvx
 winget_app_Dio.PureCodec
 winget_app_dremin.RetroBar
 winget_app_drscaon.OneLeft
+winget_app_DimitrovAdrian.RcloneTray
 winget_app_Devolutions.RemoteDesktopManager
 winget_app_Devolutions.Workspace
 winget_app_Devolutions.Launcher
@@ -4470,6 +4471,7 @@ winget_app_JackieLiu.NotepadsApp
 winget_app_JoeyG.YTDownload
 winget_app_jasperapp.jasper
 winget_app_JanetLang.Janet
+winget_app_JPSoft.tcmd
 winget_app_JamesLarus.SPIM
 winget_app_JSFoundation.Appium
 winget_app_jcv8000.Codex
