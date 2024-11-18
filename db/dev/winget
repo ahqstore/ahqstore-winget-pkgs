@@ -2624,6 +2624,7 @@ winget_app_NordSecurity.NordLayer
 winget_app_NordSecurity.NordLocker
 winget_app_NordSecurity.NordVPN
 winget_app_nginxinc.nginx_prometheus_exporter
+winget_app_nginxinc.nginx
 winget_app_NoSQLBooster.NoSQLBooster
 winget_app_Notion.Notion
 winget_app_Notion.NotionCalendar
@@ -3580,6 +3581,7 @@ winget_app_Klocman.BulkCrapUninstaller
 winget_app_KirillOsenkov.MSBuildStructuredLogViewer
 winget_app_Kapibala.Shuitun
 winget_app_kerinlin.OrangePlayer
+winget_app_kukuruzka165.materialgram
 winget_app_Kuro.Mery
 winget_app_KiCad.KiCad
 winget_app_Keboola.KeboolaCLI
@@ -4102,6 +4104,7 @@ winget_app_ClusterM.hakchi2
 winget_app_ClarivateAnalytics.EndNote
 winget_app_CloudCompare.CloudCompare
 winget_app_chrismaltby.gb_studio
+winget_app_CatalystDevOrg.CatalystBrowser
 winget_app_Crazybump.Crazybump
 winget_app_CherubicSoftware.SageThumbs
 winget_app_Caphyon.AdvancedInstaller
@@ -5049,6 +5052,7 @@ winget_app_SpikeHD.swerve
 winget_app_SpikeHD.Dorion
 winget_app_subhra74.XtremeDownloadManager
 winget_app_SoftPerfect.SoftPerfectNetworkScanner
+winget_app_SoftPerfect.RAMDisk
 winget_app_sum1re.CaptionOCRTool
 winget_app_Schlaubi.Tonbrett
 winget_app_Spicetify.Spicetify
