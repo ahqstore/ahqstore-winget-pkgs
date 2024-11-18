@@ -3273,6 +3273,7 @@ winget_app_pulsardev.netsix
 winget_app_PS.KubeDevDashboard
 winget_app_PassMark.DiskCheckup
 winget_app_PassMark.BatteryMon
+winget_app_PassMark.OSFMount
 winget_app_PowTools.FileShredder
 winget_app_pku.gateway
 winget_app_Puppet.puppet_bolt
@@ -4291,6 +4292,7 @@ winget_app_closeio.Close
 winget_app_CAI.CASecureBrowser
 winget_app_CLechasseur.PathCopyCopy
 winget_app_Creosys.OBDAutoDoctor
+winget_app_CrossPlusA.Balabolka
 winget_app_cthoeing.PasswordTech
 winget_app_CiderCollective.Cider
 winget_app_CodeOrg.MakerApp
@@ -4408,6 +4410,7 @@ winget_app_Jubler.App
 winget_app_JustArchiNET.ArchiSteamFarm
 winget_app_Jackbox.Utility
 winget_app_jely2002.youtube_dl_gui
+winget_app_JohannesKaufmann.html2markdown
 winget_app_JosephFinney.Text_Grab
 winget_app_jie17.v2ray_electron
 winget_app_jie17.electronic_gmail
@@ -5849,6 +5852,7 @@ winget_app_LibreWolf.LibreWolf
 winget_app_LightZoneProject.LightZone
 winget_app_Lambda.openexr_viewer
 winget_app_linepod.linepodlauncher
+winget_app_Lando.Lando
 winget_app_Labstack.armor
 winget_app_LilithGames.Dislyte
 winget_app_lyswhut.lx_music_desktop
