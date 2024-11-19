@@ -3271,9 +3271,6 @@ winget_app_PPSSPPTeam.PPSSPP
 winget_app_ProsoftEngineering.DataRescue
 winget_app_pulsardev.netsix
 winget_app_PS.KubeDevDashboard
-winget_app_PassMark.DiskCheckup
-winget_app_PassMark.BatteryMon
-winget_app_PassMark.OSFMount
 winget_app_PowTools.FileShredder
 winget_app_pku.gateway
 winget_app_Puppet.puppet_bolt
