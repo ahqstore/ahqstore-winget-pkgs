@@ -3188,7 +3188,9 @@ winget_app_PeterStrick.ViVeTool_GUI
 winget_app_PilotEdge.MSFSclient
 winget_app_Pharoproject.PharoLauncher
 winget_app_PassmarkSoftware.SoundCheck
+winget_app_PassmarkSoftware.DiskCheckup
 winget_app_PassmarkSoftware.Fragger
+winget_app_PassmarkSoftware.BatteryMon
 winget_app_PassmarkSoftware.OSFMount
 winget_app_Proton.ProtonPass
 winget_app_Proton.ProtonVPN
