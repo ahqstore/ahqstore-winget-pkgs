@@ -219,6 +219,7 @@ winget_app_AlbrechtL.WelloIO
 winget_app_AnyTXT.AnyTXTSearcher
 winget_app_alexvallat.AlbumArtDownloader
 winget_app_Anchore.Grype
+winget_app_Anchore.Quill
 winget_app_Acronis.CyberProtectHomeOffice
 winget_app_Aladin.eBook
 winget_app_Avidemux.Avidemux
@@ -5200,6 +5201,7 @@ winget_app_sylviiu.ezytdl
 winget_app_Sandboxie.Classic
 winget_app_Sandboxie.Plus
 winget_app_Storj.Uplink
+winget_app_streamerbot.streamerbot
 winget_app_staniel359.muffon
 winget_app_Sovranti.Sovranti
 winget_app_Seagate.SeaTools
