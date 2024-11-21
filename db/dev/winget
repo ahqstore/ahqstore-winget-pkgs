@@ -219,6 +219,7 @@ winget_app_AlbrechtL.WelloIO
 winget_app_AnyTXT.AnyTXTSearcher
 winget_app_alexvallat.AlbumArtDownloader
 winget_app_Anchore.Grype
+winget_app_Anchore.Syft
 winget_app_Anchore.Quill
 winget_app_Acronis.CyberProtectHomeOffice
 winget_app_Aladin.eBook
