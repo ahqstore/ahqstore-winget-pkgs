@@ -443,6 +443,7 @@ winget_app_FreeOrion.FreeOrion
 winget_app_Fortinet.FortiClientVPN
 winget_app_FujitsuClientComputingLimited.DeskUpdate
 winget_app_FilenCloud.FilenSync
+winget_app_FilenCloud.Filen_cli
 winget_app_fyr77.EnvyUpdate
 winget_app_f3d_app.f3d
 winget_app_FireAlpaca.FireAlpaca
@@ -2996,6 +2997,7 @@ winget_app_Rowley.CrossWorks
 winget_app_rhysd.actionlint
 winget_app_Riiid.pollapo
 winget_app_ryanvolz.radioconda
+winget_app_RegsoftsSoftware.RegistryRepair
 winget_app_RomanHiestand.Regard3D
 winget_app_Romcenter.Romcenter
 winget_app_RickClark.Pullp
