@@ -1677,6 +1677,7 @@ winget_app_Ocenaudio.Ocenaudio
 winget_app_OK1DIX.VUSC4WIN
 winget_app_OCaml.opam
 winget_app_OpenAL.OpenAL
+winget_app_oleg_shilo.multiclip
 winget_app_oleg_shilo.mkshim
 winget_app_oleg_shilo.cs_script
 winget_app_oleg_shilo.win_sudo
