@@ -2698,6 +2698,7 @@ winget_app_NSIS.NSIS
 winget_app_NewsGator.FeedDemon
 winget_app_Nodist.Nodist
 winget_app_Nickvision.Parabolic
+winget_app_Nickvision.NickvisionParabolic
 winget_app_NicoJeskeIT.MasterVolumeSync
 winget_app_Nikkho.FileOptimizer
 winget_app_NetEase.CloudMusicXStudio
@@ -3346,6 +3347,7 @@ winget_app_IG.IGClient
 winget_app_IcoFXSoftware.icofx
 winget_app_Invizi.Invizi
 winget_app_InvisibleMan.InvisibleManXRay
+winget_app_iwalton3.plex_mpv_shim
 winget_app_IAMCloud.CloudDriveMapper
 winget_app_ignatandrei.MakeBookCLI
 winget_app_IronmanSoftware.PowerShellUniversal
@@ -3798,6 +3800,7 @@ winget_app_Dixa.Dixa
 winget_app_DrobinskiMaciejStrongRecovery.MultiExtractor
 winget_app_desowin.USBPcap
 winget_app_DrakeetXu.PureWriter
+winget_app_dune3d.dune3d
 winget_app_DigitalOcean.Doctl
 winget_app_DaringDevelopmentInc.Horizon
 winget_app_DigitalExtremes.Warframe
