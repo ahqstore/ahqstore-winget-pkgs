@@ -89,6 +89,7 @@ winget_app_afractal.Echo
 winget_app_afractal.Metronome
 winget_app_afractal.TwitterTron
 winget_app_AVRDudes.AVRDUDE
+winget_app_AppByTroye.KoodoReader
 winget_app_Appest.Dida
 winget_app_Appest.TickTick
 winget_app_Autodesk.AutodeskAccess
@@ -4885,6 +4886,7 @@ winget_app_WaveMetrics.IgorPro6
 winget_app_WaveMetrics.IgorPro8
 winget_app_WaveMetrics.IgorPro9
 winget_app_WestWind.MarkdownMonster
+winget_app_WestWind.WebSurge
 winget_app_writage.writage
 winget_app_Wilfred.difftastic
 winget_app_WACUP.WACUP
