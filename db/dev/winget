@@ -299,6 +299,7 @@ winget_app_Adobe.AdobeConnect
 winget_app_Adobe.Acrobat.Reader.32_bit
 winget_app_Adobe.Acrobat.Reader.64_bit
 winget_app_Axosoft.GitKraken
+winget_app_AlexanderShaduri.GSmartControl
 winget_app_ArtifexSoftware.mutool
 winget_app_AustinLeath.R6RC
 winget_app_AwthWathje.SteaScree
@@ -699,7 +700,6 @@ winget_app_Gridcoin.Client
 winget_app_GadgetsRevived.GadgetsRevived
 winget_app_gurnec.HashCheckShellExtension
 winget_app_GaoYoubo.HexoClient
-winget_app_GSmartControl.GSmartControl
 winget_app_g07cha.pomodoro
 winget_app_GLPI_Project.GLPI_Agent
 winget_app_GoACME.lego
@@ -1807,6 +1807,7 @@ winget_app_Elexe.ElexeLauncher
 winget_app_Elastic.Elasticsearch
 winget_app_Elastic.Winlogbeat
 winget_app_Easeware.DriverEasy
+winget_app_Enter_tainer.typstyle
 winget_app_EXEMSI.MSIWrapper
 winget_app_ebkr.r2modman
 winget_app_ETHZurich.SafeExamBrowser
