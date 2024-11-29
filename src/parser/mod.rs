@@ -1,6 +1,5 @@
 use ahqstore_types::{
-  winget::Installer, AHQStoreApplication, AppRepo, DownloadUrl, InstallerFormat, InstallerOptions,
-  InstallerOptionsWindows,
+  winget::Installer, AHQStoreApplication, AppRepo, DownloadUrl, InstallerFormat, InstallerOptions, InstallerOptionsWindows, WindowsInstallScope
 };
 use serde_yml::from_str;
 use std::{
@@ -271,7 +270,15 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
             |x| Some((InstallerFormat::WindowsInstallerMsi, x)),
           );
 
+          let scope = installer.Scope;
+
           let mut parse = |x: Option<(InstallerFormat, Installer)>| if let Some((installer, x)) = x {
+            let scope = match scope.as_str() {
+              "machine" => WindowsInstallScope::Machine,
+              "user" => WindowsInstallScope::User,
+              _ => WindowsInstallScope::User,
+            };
+
             if &x.Architecture == "x64" {
               x64.installerType = installer;
 
@@ -281,6 +288,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
                 assetId: 1,
                 exec: None,
                 installerArgs: None,
+                scope: Some(scope),
               });
             } else if &x.Architecture == "arm64" {
               arm.installerType = installer;
@@ -291,6 +299,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
                 assetId: 0,
                 exec: None,
                 installerArgs: None,
+                scope: Some(scope),
               });
             }
           };
