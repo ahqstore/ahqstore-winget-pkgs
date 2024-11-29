@@ -1,4 +1,3 @@
-winget_app_AppbyTroye.KoodoReader
 winget_app_AceStream.AceStream
 winget_app_actualsolution.VolumeLock
 winget_app_AlgorandFoundation.AlgoKit
@@ -39,7 +38,6 @@ winget_app_AxisCommunicationsAB.FilePlayerLauncher
 winget_app_AxisCommunicationsAB.AXISVideoCaptureDriver
 winget_app_aislx.FlameLauncher
 winget_app_alagrede.znote
-winget_app_ArmCord.ArmCord
 winget_app_ArmagetronAdvanced.ArmagetronAdvanced
 winget_app_Aserto.Topaz
 winget_app_Aserto.CLI
@@ -91,6 +89,7 @@ winget_app_afractal.Echo
 winget_app_afractal.Metronome
 winget_app_afractal.TwitterTron
 winget_app_AVRDudes.AVRDUDE
+winget_app_AppByTroye.KoodoReader
 winget_app_Appest.Dida
 winget_app_Appest.TickTick
 winget_app_Autodesk.AutodeskAccess
@@ -215,9 +214,12 @@ winget_app_atsuover.Garcello
 winget_app_Aiursoft.Kahla
 winget_app_Algoryx.Algodoo
 winget_app_AntSoftware.AntRenamer
+winget_app_AlbrechtL.WelloIO
 winget_app_AnyTXT.AnyTXTSearcher
 winget_app_alexvallat.AlbumArtDownloader
 winget_app_Anchore.Grype
+winget_app_Anchore.Syft
+winget_app_Anchore.Quill
 winget_app_Acronis.CyberProtectHomeOffice
 winget_app_Aladin.eBook
 winget_app_Avidemux.Avidemux
@@ -297,6 +299,7 @@ winget_app_Adobe.AdobeConnect
 winget_app_Adobe.Acrobat.Reader.32_bit
 winget_app_Adobe.Acrobat.Reader.64_bit
 winget_app_Axosoft.GitKraken
+winget_app_AlexanderShaduri.GSmartControl
 winget_app_ArtifexSoftware.mutool
 winget_app_AustinLeath.R6RC
 winget_app_AwthWathje.SteaScree
@@ -406,7 +409,6 @@ winget_app_AsciidocFX.AsciidocFX
 winget_app_Audacity.Audacity
 winget_app_AllanBoll.FilesRemote
 winget_app_Audius.Audius
-winget_app_AbiSource.AbiWord
 winget_app_Airspy.AdsbSpy
 winget_app_Airspy.SpyServer
 winget_app_aliceandbob_io.aliceandbob
@@ -415,6 +417,7 @@ winget_app_Feodor2.Mypal
 winget_app_felixgborrego.simple_docker_ui
 winget_app_FocusriteAudioEngineeringLtd.FocusriteControl
 winget_app_FocusriteAudioEngineeringLtd.FocusriteControl2
+winget_app_FilesCommunity.Files
 winget_app_FTB.App
 winget_app_FlightGear.FlightGear
 winget_app_FutureScholars.Paperlib
@@ -441,6 +444,7 @@ winget_app_FreeOrion.FreeOrion
 winget_app_Fortinet.FortiClientVPN
 winget_app_FujitsuClientComputingLimited.DeskUpdate
 winget_app_FilenCloud.FilenSync
+winget_app_FilenCloud.Filen_cli
 winget_app_fyr77.EnvyUpdate
 winget_app_f3d_app.f3d
 winget_app_FireAlpaca.FireAlpaca
@@ -532,6 +536,7 @@ winget_app_FastStone.Viewer
 winget_app_FastStone.Capture
 winget_app_Freeplane.Freeplane
 winget_app_FrostWire.FrostWire
+winget_app_fosslife.truthy
 winget_app_FelipeSantos.ClipboardSync
 winget_app_FileCloud.FileCloudDrive
 winget_app_FalconNL93.WSLToolbox
@@ -634,6 +639,7 @@ winget_app_Geany.Geany
 winget_app_Genivia.ugrep
 winget_app_Gitleaks.Gitleaks
 winget_app_GielCobben.Caption
+winget_app_GPower.GPower
 winget_app_GOMLab.GOMPlayer
 winget_app_gittuf.gittuf
 winget_app_gdiObjects.Perspective
@@ -695,7 +701,6 @@ winget_app_Gridcoin.Client
 winget_app_GadgetsRevived.GadgetsRevived
 winget_app_gurnec.HashCheckShellExtension
 winget_app_GaoYoubo.HexoClient
-winget_app_GSmartControl.GSmartControl
 winget_app_g07cha.pomodoro
 winget_app_GLPI_Project.GLPI_Agent
 winget_app_GoACME.lego
@@ -951,6 +956,7 @@ winget_app_Microsoft.winfile
 winget_app_Microsoft.MSIXCore
 winget_app_Microsoft.DotNet.DesktopRuntime.5
 winget_app_Microsoft.DotNet.DesktopRuntime.Preview
+winget_app_Microsoft.DotNet.DesktopRuntime.9
 winget_app_Microsoft.DotNet.DesktopRuntime.6
 winget_app_Microsoft.DotNet.DesktopRuntime.7
 winget_app_Microsoft.DotNet.DesktopRuntime.3_1
@@ -958,6 +964,7 @@ winget_app_Microsoft.DotNet.DesktopRuntime.8
 winget_app_Microsoft.DotNet.AspNetCore.5
 winget_app_Microsoft.DotNet.AspNetCore.2_2_402
 winget_app_Microsoft.DotNet.AspNetCore.Preview
+winget_app_Microsoft.DotNet.AspNetCore.9
 winget_app_Microsoft.DotNet.AspNetCore.3_0
 winget_app_Microsoft.DotNet.AspNetCore.6
 winget_app_Microsoft.DotNet.AspNetCore.7
@@ -967,18 +974,21 @@ winget_app_Microsoft.DotNet.AspNetCore.8
 winget_app_Microsoft.DotNet.Framework.DeveloperPack_4
 winget_app_Microsoft.DotNet.Runtime.5
 winget_app_Microsoft.DotNet.Runtime.Preview
+winget_app_Microsoft.DotNet.Runtime.9
 winget_app_Microsoft.DotNet.Runtime.6
 winget_app_Microsoft.DotNet.Runtime.7
 winget_app_Microsoft.DotNet.Runtime.3_1
 winget_app_Microsoft.DotNet.Runtime.8
 winget_app_Microsoft.DotNet.HostingBundle.5
 winget_app_Microsoft.DotNet.HostingBundle.Preview
+winget_app_Microsoft.DotNet.HostingBundle.9
 winget_app_Microsoft.DotNet.HostingBundle.6
 winget_app_Microsoft.DotNet.HostingBundle.7
 winget_app_Microsoft.DotNet.HostingBundle.3_1
 winget_app_Microsoft.DotNet.HostingBundle.8
 winget_app_Microsoft.DotNet.SDK.5
 winget_app_Microsoft.DotNet.SDK.Preview
+winget_app_Microsoft.DotNet.SDK.9
 winget_app_Microsoft.DotNet.SDK.6
 winget_app_Microsoft.DotNet.SDK.7
 winget_app_Microsoft.DotNet.SDK.3_1
@@ -1025,6 +1035,7 @@ winget_app_Meta.Zstandard
 winget_app_MOTU.MSeries
 winget_app_Modrinth.ModrinthApp
 winget_app_MehediHassan.Tweeten
+winget_app_MITK.MITK
 winget_app_Mamba.Micromamba
 winget_app_MusicBee.MusicBee
 winget_app_Mayakron.AcrylicDNS
@@ -1055,6 +1066,7 @@ winget_app_MediathekViewTeam.MediathekView
 winget_app_MarcielDegasperi.MDBAdmin
 winget_app_MichaelBromley.SKQW
 winget_app_MyHeritage.FamilyTreeBuilder
+winget_app_MoonshotAI.Kimi
 winget_app_MyCloudGame.AirGame
 winget_app_mholt.archiver
 winget_app_makeworld.merkdir
@@ -1108,6 +1120,7 @@ winget_app_MatsuriDayo.NekoRay
 winget_app_MilosParipovic.OneCommander
 winget_app_MHGames.ThoseFunnyFunguloids
 winget_app_MHGames.IHaveNoTomatoes
+winget_app_MicrosoftCorporation.PowerBIReportBuilder
 winget_app_MysteriumNetwork.Mysterium
 winget_app_Makeblock.xToolCreativeSpace
 winget_app_ManticoreGames.Core
@@ -1164,6 +1177,7 @@ winget_app_mar10.pyftpsync
 winget_app_mar10.wsgidav
 winget_app_mpv.net
 winget_app_MiXXX.MiXXX
+winget_app_Mergiraf.Mergiraf
 winget_app_MaLuns.wallhaven_electron
 winget_app_MatthewMalensek.3RVX
 winget_app_Musescore.Musescore
@@ -1403,6 +1417,7 @@ winget_app_MullvadVPN.MullvadBrowser
 winget_app_mcmilk.7zip_zstd
 winget_app_maximmax42.CustomRP
 winget_app_Malwarebytes.Privacy
+winget_app_Malwarebytes.AdwCleaner
 winget_app_Malwarebytes.Malwarebytes
 winget_app_MoheshwarAmarnathBiswas.UsefulToolsForWindows
 winget_app_matvelloso.electron_office_365
@@ -1453,6 +1468,7 @@ winget_app_moshfeu.y2mp3
 winget_app_Mattermost.Focalboard
 winget_app_Mattermost.MattermostDesktop
 winget_app_murgatt.recode_converter
+winget_app_MevLyshkin.uec
 winget_app_Mr1cecream.Modbreeze
 winget_app_MultiMC.MultiMC
 winget_app_MndpTray.Core
@@ -1507,6 +1523,7 @@ winget_app_OpenRCT2.OpenRCT2
 winget_app_ON6MU.RXSSTV
 winget_app_OrangeNote.RuneBook
 winget_app_oldj.switchhosts
+winget_app_otto8_ai.otto8
 winget_app_ORASProject.ORAS
 winget_app_ojdkbuild.ojdkbuild
 winget_app_OO_Software.DeskInfo
@@ -1519,7 +1536,6 @@ winget_app_OO_Software.DiskStat
 winget_app_OctopusDeploy.Server
 winget_app_OctopusDeploy.Tentacle
 winget_app_OctopusDeploy.Cli
-winget_app_OpenDesignAlliance.ODAFileConverter
 winget_app_okteto.okteto
 winget_app_OlegDanilov.RapidEnvironmentEditor
 winget_app_OneGal.Viper
@@ -1662,6 +1678,7 @@ winget_app_Ocenaudio.Ocenaudio
 winget_app_OK1DIX.VUSC4WIN
 winget_app_OCaml.opam
 winget_app_OpenAL.OpenAL
+winget_app_oleg_shilo.multiclip
 winget_app_oleg_shilo.mkshim
 winget_app_oleg_shilo.cs_script
 winget_app_oleg_shilo.win_sudo
@@ -1775,6 +1792,7 @@ winget_app_Envoy49.go_spotify_cli
 winget_app_Eliot.UEExplorer
 winget_app_EnderbytePrograms.PyinstallerHelper
 winget_app_Evernote.Evernote
+winget_app_EMQ.MQTTX
 winget_app_EPA.SWMM
 winget_app_Empoche.Empoche
 winget_app_EdrawSoft.MindMaster
@@ -1790,6 +1808,7 @@ winget_app_Elexe.ElexeLauncher
 winget_app_Elastic.Elasticsearch
 winget_app_Elastic.Winlogbeat
 winget_app_Easeware.DriverEasy
+winget_app_Enter_tainer.typstyle
 winget_app_EXEMSI.MSIWrapper
 winget_app_ebkr.r2modman
 winget_app_ETHZurich.SafeExamBrowser
@@ -1847,7 +1866,6 @@ winget_app_EEO.ClassInX
 winget_app_EEO.ClassIn
 winget_app_EEO.CamIn
 winget_app_eFMer.BoincTasks
-winget_app_emqx.mqttx
 winget_app_EvgenyCherpak.RemoteHelperApp
 winget_app_Evexi.EvexiCLI
 winget_app_EZBSystems.EasyBoot
@@ -1943,6 +1961,7 @@ winget_app_Tencent.TranSmart
 winget_app_Tencent.Foxmail
 winget_app_Tencent.ArtHub
 winget_app_Tencent.VooVMeeting
+winget_app_Tencent.UGit
 winget_app_TeamLidarr.Lidarr
 winget_app_TIDALMusicAS.TIDAL
 winget_app_ThePandemoniumInstitute.BloodontheClocktowerOnline
@@ -2312,6 +2331,7 @@ winget_app_HumbleBundle.HumbleApp
 winget_app_Heroku.HerokuCLI
 winget_app_HelmutBuhler.8GadgetPack
 winget_app_HamRadioDeluxe.HamRadioDeluxe
+winget_app_HelioFM.HelioSequencer
 winget_app_herrlichmedia.Agantty
 winget_app_HeartbeatChat.Heartbeat
 winget_app_Hubitech.Reemo
@@ -2336,7 +2356,6 @@ winget_app_Hayaku.QuickDash
 winget_app_HomeBank.HomeBank
 winget_app_HolmeZ.Momentum
 winget_app_horsicq.DIE_engine
-winget_app_Hasleo.BackupSuiteFree
 winget_app_hickford.git_credential_oauth
 winget_app_hickford.git_credential_azure
 winget_app_Hyperion.Hyperion
@@ -2591,7 +2610,6 @@ winget_app_NewReleases.NewReleasesCLI
 winget_app_Nullpomino.Nullpomino
 winget_app_nulldev.ProfileSwitcherforFirefox
 winget_app_NimbleThingPtyLtd.NimbleText
-winget_app_NotroDev.SkEditor+
 winget_app_nvisionative.nvQuickSite
 winget_app_NAVER.Whale
 winget_app_NAVER.MYBOX
@@ -2608,6 +2626,7 @@ winget_app_NordSecurity.NordLayer
 winget_app_NordSecurity.NordLocker
 winget_app_NordSecurity.NordVPN
 winget_app_nginxinc.nginx_prometheus_exporter
+winget_app_nginxinc.nginx
 winget_app_NoSQLBooster.NoSQLBooster
 winget_app_Notion.Notion
 winget_app_Notion.NotionCalendar
@@ -2656,6 +2675,7 @@ winget_app_nomacs.nomacs
 winget_app_NewTek.NDI5Tools
 winget_app_NewTek.NDI5Runtime
 winget_app_NickGasson.NVC
+winget_app_Nextcloud.Talk
 winget_app_Nextcloud.NextcloudDesktop
 winget_app_NAVERCloudCorp.NAVERWORKSDrive
 winget_app_NextDNS.NextDNS
@@ -2668,6 +2688,7 @@ winget_app_NamecoinProject.NamecoinCore
 winget_app_NamecoinProject.Electrum_NMC
 winget_app_Newlineinteractive.NewlineassistantX689
 winget_app_NomanDhoni.BlinkEye
+winget_app_Navitel.NavitelDvrPlayer
 winget_app_nodemailer.nodemailer
 winget_app_NDXCode.EclipseFlashTool
 winget_app_Neemb.Distill
@@ -2679,6 +2700,7 @@ winget_app_NSIS.NSIS
 winget_app_NewsGator.FeedDemon
 winget_app_Nodist.Nodist
 winget_app_Nickvision.Parabolic
+winget_app_Nickvision.NickvisionParabolic
 winget_app_NicoJeskeIT.MasterVolumeSync
 winget_app_Nikkho.FileOptimizer
 winget_app_NetEase.CloudMusicXStudio
@@ -2977,6 +2999,7 @@ winget_app_Rowley.CrossWorks
 winget_app_rhysd.actionlint
 winget_app_Riiid.pollapo
 winget_app_ryanvolz.radioconda
+winget_app_RegsoftsSoftware.RegistryRepair
 winget_app_RomanHiestand.Regard3D
 winget_app_Romcenter.Romcenter
 winget_app_RickClark.Pullp
@@ -3170,7 +3193,9 @@ winget_app_PeterStrick.ViVeTool_GUI
 winget_app_PilotEdge.MSFSclient
 winget_app_Pharoproject.PharoLauncher
 winget_app_PassmarkSoftware.SoundCheck
+winget_app_PassmarkSoftware.DiskCheckup
 winget_app_PassmarkSoftware.Fragger
+winget_app_PassmarkSoftware.BatteryMon
 winget_app_PassmarkSoftware.OSFMount
 winget_app_Proton.ProtonPass
 winget_app_Proton.ProtonVPN
@@ -3198,7 +3223,6 @@ winget_app_PowerSoftware.AnyBurn
 winget_app_PowerSoftware.PowerISO
 winget_app_Pulsar_Edit.Pulsar
 winget_app_PDFsam.PDFsam
-winget_app_Paloalto.GlobalProtect
 winget_app_PatchMyPC.PatchMyPC
 winget_app_PRQL.prqlc
 winget_app_PhraseExpress.PhraseExpress
@@ -3253,8 +3277,6 @@ winget_app_PPSSPPTeam.PPSSPP
 winget_app_ProsoftEngineering.DataRescue
 winget_app_pulsardev.netsix
 winget_app_PS.KubeDevDashboard
-winget_app_PassMark.DiskCheckup
-winget_app_PassMark.BatteryMon
 winget_app_PowTools.FileShredder
 winget_app_pku.gateway
 winget_app_Puppet.puppet_bolt
@@ -3282,7 +3304,6 @@ winget_app_PaddiM8.kalker
 winget_app_PioneerDevelopers.Pioneer
 winget_app_PhapDieuDuong.ExifGlass
 winget_app_Prog.ProgFinder
-winget_app_Prog.ProgTV
 winget_app_pluveto.FlyDav
 winget_app_pluveto.Upgit
 winget_app_PawelSalawa.SQLiteStudio
@@ -3327,6 +3348,7 @@ winget_app_IG.IGClient
 winget_app_IcoFXSoftware.icofx
 winget_app_Invizi.Invizi
 winget_app_InvisibleMan.InvisibleManXRay
+winget_app_iwalton3.plex_mpv_shim
 winget_app_IAMCloud.CloudDriveMapper
 winget_app_ignatandrei.MakeBookCLI
 winget_app_IronmanSoftware.PowerShellUniversal
@@ -3395,7 +3417,6 @@ winget_app_IPU.CoolTools
 winget_app_iMobieInc.Ashampoo
 winget_app_iMobieInc.AnyFix
 winget_app_ifedapoolarewaju.IGdm
-winget_app_IELTSBRO.IELTS_PC
 winget_app_IDEA.ReadPaper
 winget_app_inPixio.inPixioPhotoStudio
 winget_app_IObit.Uninstaller
@@ -3563,13 +3584,17 @@ winget_app_Klocman.BulkCrapUninstaller
 winget_app_KirillOsenkov.MSBuildStructuredLogViewer
 winget_app_Kapibala.Shuitun
 winget_app_kerinlin.OrangePlayer
+winget_app_kukuruzka165.materialgram
 winget_app_Kuro.Mery
 winget_app_KiCad.KiCad
 winget_app_Keboola.KeboolaCLI
 winget_app_kymoto.InnoScriptStudio
+winget_app_Kethsar.ytarchive
 winget_app_Kairos.DuetDisplay
 winget_app_KeePassXCTeam.KeePassXC
 winget_app_KoalaBear84.OpenDirectoryDownloader
+winget_app_KurtZimmermann.EventLogViewer
+winget_app_KurtZimmermann.SimilarImagesFinder
 winget_app_K1DBO.slice_master_6000
 winget_app_Kingston.SSDManager
 winget_app_KurtisLiggett.SimpleIPConfig
@@ -3680,6 +3705,7 @@ winget_app_dotenvx.dotenvx
 winget_app_Dio.PureCodec
 winget_app_dremin.RetroBar
 winget_app_drscaon.OneLeft
+winget_app_DimitrovAdrian.RcloneTray
 winget_app_Devolutions.RemoteDesktopManager
 winget_app_Devolutions.Workspace
 winget_app_Devolutions.Launcher
@@ -3724,6 +3750,7 @@ winget_app_dechamps.FlexASIO
 winget_app_DrummerSi.TaskSeparator11
 winget_app_DoomsdayEngine.DoomsdayEngine
 winget_app_Decred.Decrediton
+winget_app_DevelopedMethods.playit
 winget_app_DavidMeeker.FEMM
 winget_app_DuoSecurity.Duo2FAAuthenticationforWindows
 winget_app_DuoSecurity.DuoDeviceHealth
@@ -3774,6 +3801,7 @@ winget_app_Dixa.Dixa
 winget_app_DrobinskiMaciejStrongRecovery.MultiExtractor
 winget_app_desowin.USBPcap
 winget_app_DrakeetXu.PureWriter
+winget_app_dune3d.dune3d
 winget_app_DigitalOcean.Doctl
 winget_app_DaringDevelopmentInc.Horizon
 winget_app_DigitalExtremes.Warframe
@@ -3796,7 +3824,6 @@ winget_app_Digimezzo.Knowte
 winget_app_Dapr.CLI
 winget_app_Dmitry_Farafonov.MicSwitch
 winget_app_DockStation.DockStation
-winget_app_DevelopedMethodsLLC.playit
 winget_app_dscharrer.innoextract
 winget_app_DmitryKozhinov.IconEdit2
 winget_app_Dichromate.Browser
@@ -3994,6 +4021,7 @@ winget_app_XlightFTP.XlightFTP
 winget_app_XnSoft.XnConvert
 winget_app_XnSoft.XnViewMP
 winget_app_XplicitTrust.Agent
+winget_app_xpf0000.FlyEnv
 winget_app_XmacsLabs.Mogan
 winget_app_Xenia.XeniaCanary
 winget_app_Xenia.Xenia
@@ -4012,6 +4040,7 @@ winget_app_Cimbali.pympress
 winget_app_Cencit.BAS21
 winget_app_cinnyapp.cinny_desktop
 winget_app_ChaosRecipeEnhancer.ChaosRecipeEnhancer
+winget_app_Codilime.Veles
 winget_app_creativeprojects.resticprofile
 winget_app_Celestia.Celestia
 winget_app_Cryptomator.Cryptomator
@@ -4081,6 +4110,7 @@ winget_app_ClusterM.hakchi2
 winget_app_ClarivateAnalytics.EndNote
 winget_app_CloudCompare.CloudCompare
 winget_app_chrismaltby.gb_studio
+winget_app_CatalystDevOrg.CatalystBrowser
 winget_app_Crazybump.Crazybump
 winget_app_CherubicSoftware.SageThumbs
 winget_app_Caphyon.AdvancedInstaller
@@ -4117,6 +4147,7 @@ winget_app_CreativeTechnology.SoundBlasterCommand
 winget_app_COMPELSONLaboratories.MOBILedit!SIMClone
 winget_app_COMPELSONLaboratories.CameraBallistics
 winget_app_CCPGames.EVEOnline
+winget_app_CyberGhost.CyberGhost
 winget_app_Cuyler.ACNESCreator
 winget_app_cyanreg.cyanrip
 winget_app_ChristianAviBulan.GlassCannon
@@ -4252,6 +4283,7 @@ winget_app_cedric.view2er
 winget_app_Cockatrice.Cockatrice
 winget_app_ClickUp.ClickUp
 winget_app_Chia_Lung.Kaku
+winget_app_CmdUtil.WhatTheFile
 winget_app_Coq.CoqPlatform
 winget_app_CommandLine.Wave
 winget_app_ChilliBits.Spice
@@ -4265,6 +4297,7 @@ winget_app_closeio.Close
 winget_app_CAI.CASecureBrowser
 winget_app_CLechasseur.PathCopyCopy
 winget_app_Creosys.OBDAutoDoctor
+winget_app_CrossPlusA.Balabolka
 winget_app_cthoeing.PasswordTech
 winget_app_CiderCollective.Cider
 winget_app_CodeOrg.MakerApp
@@ -4382,6 +4415,7 @@ winget_app_Jubler.App
 winget_app_JustArchiNET.ArchiSteamFarm
 winget_app_Jackbox.Utility
 winget_app_jely2002.youtube_dl_gui
+winget_app_JohannesKaufmann.html2markdown
 winget_app_JosephFinney.Text_Grab
 winget_app_jie17.v2ray_electron
 winget_app_jie17.electronic_gmail
@@ -4450,6 +4484,7 @@ winget_app_JackieLiu.NotepadsApp
 winget_app_JoeyG.YTDownload
 winget_app_jasperapp.jasper
 winget_app_JanetLang.Janet
+winget_app_JPSoft.tcmd
 winget_app_JamesLarus.SPIM
 winget_app_JSFoundation.Appium
 winget_app_jcv8000.Codex
@@ -4471,6 +4506,7 @@ winget_app_jayakumarreddy.Local_Mock_Server
 winget_app_Jackett.Jackett
 winget_app_james.james
 winget_app_JoachimEibl.KDiff3
+winget_app_JReleaser.jreleaser
 winget_app_JTDX.JTDX
 winget_app_JackMordaunt.icnsify
 winget_app_Jitsi.Meet
@@ -4672,6 +4708,7 @@ winget_app_BriceLambson.ImageResizerforWindows
 winget_app_BitSum.ProcessLasso
 winget_app_BitSum.ParkControl
 winget_app_BitSum.Coreprio
+winget_app_Blushyes.Sofast
 winget_app_BlueJTeam.BlueJ
 winget_app_BookStairs.bookhunter
 winget_app_Badlion.BadlionClient
@@ -4850,6 +4887,7 @@ winget_app_WaveMetrics.IgorPro6
 winget_app_WaveMetrics.IgorPro8
 winget_app_WaveMetrics.IgorPro9
 winget_app_WestWind.MarkdownMonster
+winget_app_WestWind.WebSurge
 winget_app_writage.writage
 winget_app_Wilfred.difftastic
 winget_app_WACUP.WACUP
@@ -5025,6 +5063,7 @@ winget_app_SpikeHD.swerve
 winget_app_SpikeHD.Dorion
 winget_app_subhra74.XtremeDownloadManager
 winget_app_SoftPerfect.SoftPerfectNetworkScanner
+winget_app_SoftPerfect.RAMDisk
 winget_app_sum1re.CaptionOCRTool
 winget_app_Schlaubi.Tonbrett
 winget_app_Spicetify.Spicetify
@@ -5037,7 +5076,7 @@ winget_app_sipgate.sipgatesoftphone
 winget_app_SimpleX.SimpleX_Chat
 winget_app_Scribus.Scribus
 winget_app_StuntRally.StuntRally
-winget_app_skypjack.qsapecng
+winget_app_skypjack.QSapecNG
 winget_app_SM5BSZ.Linrad
 winget_app_SM5BSZ.Linrad_dll
 winget_app_Slik.Subversion
@@ -5069,6 +5108,7 @@ winget_app_sw4you.Hardcopy
 winget_app_Shssoichiro.Oxipng
 winget_app_Syncplay.Syncplay
 winget_app_SumatraPDF.SumatraPDF
+winget_app_Supermicro.IMPIView
 winget_app_Sogou.SogouInput
 winget_app_Sogou.SogouWBInput
 winget_app_Sogou.SogouInputSkinEditor
@@ -5135,6 +5175,7 @@ winget_app_StackExchange.DNSControl
 winget_app_SonicTeamJr.SonicRoboBlast2
 winget_app_SonicTeamJr.SonicRoboBlast2Kart
 winget_app_sc0ty.SubSync
+winget_app_Synfig.SynfigStudio
 winget_app_SoftpointerInc.Tag&Rename
 winget_app_StepMania.StepMania
 winget_app_Saurik.CydiaImpactor
@@ -5168,6 +5209,7 @@ winget_app_sylviiu.ezytdl
 winget_app_Sandboxie.Classic
 winget_app_Sandboxie.Plus
 winget_app_Storj.Uplink
+winget_app_streamerbot.streamerbot
 winget_app_staniel359.muffon
 winget_app_Sovranti.Sovranti
 winget_app_Seagate.SeaTools
@@ -5175,7 +5217,7 @@ winget_app_SmartBear.SoapUI
 winget_app_Saxo_Broko.GingerChrome
 winget_app_Saxo_Broko.Officialapp
 winget_app_Status.Status
-winget_app_Schrodinger.Pymol
+winget_app_Schrodinger.PyMOL
 winget_app_sordum.HibernateEnableOrDisable
 winget_app_shadowsocks.shadowsocks_windows
 winget_app_Stoplight.Prism
@@ -5205,7 +5247,6 @@ winget_app_Sony.MusicCenter
 winget_app_Stardock.Start11
 winget_app_Stardock.Curtains
 winget_app_Stardock.Start10
-winget_app_Stardock.Fences
 winget_app_SandroMani.gImageReader
 winget_app_SKAARHOJApS.SKAARHOJUpdater
 winget_app_ScottMcKendry.Pat
@@ -5315,6 +5356,7 @@ winget_app_Synology.ChatClient
 winget_app_Synology.ActiveBackupForBusinessAgent
 winget_app_Synology.DriveClient
 winget_app_Schezo.Lhaplus
+winget_app_Stellar.StellarCLI
 winget_app_SamHocevar.WinCompose
 winget_app_strayge.tray_monitor
 winget_app_sidneys.pb_for_desktop
@@ -5333,6 +5375,7 @@ winget_app_Snaz.Snaz
 winget_app_Sysprogs.SmarTTY
 winget_app_SteelSeries.GG
 winget_app_SteelSeries.SteelSeriesEngine
+winget_app_Shilihu.Mubu
 winget_app_Serraniel.DiscordMediaLoader
 winget_app_syvaidya.openstego
 winget_app_SmartHoldemDAPPs.heads_tails
@@ -5446,6 +5489,7 @@ winget_app_Smile.TextExpander
 winget_app_SMARTTechnologies.SMARTNotebook
 winget_app_Speek.Speek
 winget_app_SquareCloud.CLI
+winget_app_ScaryRawr.SL
 winget_app_SoftDeluxe.FreeDownloadManager
 winget_app_SUPERAntiSpyware.SUPERAntiSpyware
 winget_app_StevenCole.Coffee
@@ -5485,7 +5529,6 @@ winget_app_schemacrawler.schemacrawler
 winget_app_StellarDataRecovery.StellarExtractorforWindowsBackup
 winget_app_SafingICSTechnologiesGmbH.Portmaster
 winget_app_slowscript.Warpinator
-winget_app_Supernova.SupernovaPlayer
 winget_app_scottlerch.hosts_file_editor
 winget_app_StefanMalzner.Franz
 winget_app_SteamGridDB.RomManager
@@ -5553,6 +5596,7 @@ winget_app_UCloud.US3Browser
 winget_app_univrsal.input_overlay
 winget_app_univrsal.tuna
 winget_app_univrsal.scrab
+winget_app_UniversityOfLjubljana.Orange
 winget_app_Unknown_HorizonsTeam.Unknown_Horizons
 winget_app_unetbootin.unetbootin
 winget_app_UweSieber.UsbTreeView
@@ -5586,7 +5630,6 @@ winget_app_ultrapico.expresso
 winget_app_uazo.cromite
 winget_app_Uzero.ScanScan
 winget_app_Universal_Debloater_Alliance.uad_ng
-winget_app_UniversityofLjubljana.Orange
 winget_app_UdiFuchs.UFRaw
 winget_app_UniversityOfAmsterdam.praat
 winget_app_UnionTech.DeepinCloudScanServer
@@ -5623,6 +5666,7 @@ winget_app_UbiquitiInc.WiFimanDesktop
 winget_app_UbiquitiInc.IdentityDesktop
 winget_app_YendisEntertainment.KrunkerClient
 winget_app_Yarn.Yarn
+winget_app_YARC.YARCLauncher
 winget_app_Yandex.Browser
 winget_app_Yandex.Music
 winget_app_Yandex.Messenger
@@ -5700,6 +5744,7 @@ winget_app_LEERINA.ShanaEncoder
 winget_app_LeGitHubDeTai.AnimeBack
 winget_app_LionelJouin.PiP_Tool
 winget_app_LibNyanpasu.clash_nyanpasu
+winget_app_LocktimeSoftware.NetLimiter
 winget_app_LedgerHQ.LedgerLive
 winget_app_lin_ycv.EverythingPowerToys
 winget_app_LibgenApps.LibgenDesktop
@@ -5716,6 +5761,7 @@ winget_app_LEGO.MindstormsEduEV3Classroom
 winget_app_Livebook.Livebook
 winget_app_lhvy.pipes_rs
 winget_app_LiteXLTeam.LiteXL
+winget_app_LiteXLTeam.LPM
 winget_app_last_hit_team.last_hit
 winget_app_lsd_rs.lsd
 winget_app_LukiLabs.Craft
@@ -5756,6 +5802,7 @@ winget_app_LeeSoft.ViPad
 winget_app_LeeSoft.ViStart
 winget_app_LBRY.LBRY
 winget_app_LinwoodCloud.Butterfly
+winget_app_lostindark.DriverStoreExplorer
 winget_app_LeadDeskLtd.LeadDesk
 winget_app_LinuxSuRen.HTTPdownloader
 winget_app_lauthieb.code_notes
@@ -5794,7 +5841,6 @@ winget_app_LuminanceHDR.LuminanceHDR
 winget_app_lstratman.easyconnect
 winget_app_LilyPond.LilyPond
 winget_app_LogicCircuit.LogicCircuit
-winget_app_LINE.LINE
 winget_app_LopeSoft.FileMenuTools
 winget_app_luapp.ToDo
 winget_app_luapp.Covid_19_cases_overview
@@ -5815,6 +5861,7 @@ winget_app_LibreWolf.LibreWolf
 winget_app_LightZoneProject.LightZone
 winget_app_Lambda.openexr_viewer
 winget_app_linepod.linepodlauncher
+winget_app_Lando.Lando
 winget_app_Labstack.armor
 winget_app_LilithGames.Dislyte
 winget_app_lyswhut.lx_music_desktop
@@ -5834,7 +5881,6 @@ winget_app_Love2d.Love2d
 winget_app_listen1.listen1
 winget_app_Lazarus.Lazarus
 winget_app_LIJI32.SameBoy
-winget_app_Lime3DS.Lime3DS
 winget_app_Lablicate.OpenChrom
 winget_app_lubomirkurcak.tend
 winget_app_Loupedeck.Loupedeck
@@ -5849,6 +5895,7 @@ winget_app_LGElectronics.LGBridge
 winget_app_LGElectronics.SmartShare
 winget_app_lamquangminh.EVKey
 winget_app_Lupinho.HardlinkBackup
+winget_app_LesFerch.WinSetView
 winget_app_leinelissen.aeon
 winget_app_LeNgocKhoa.Laragon
 winget_app_LinuxContainers.Incus
