@@ -2105,6 +2105,7 @@ winget_app_SVZsoft.GEDKeeper
 winget_app_Salesforce.sfdx_cli
 winget_app_SpeedCrunch.SpeedCrunch
 winget_app_sirWest.AudioSwitch
+winget_app_Synology.SurveillanceStationClient
 winget_app_Synology.NoteStationClient
 winget_app_Synology.Assistant
 winget_app_Synology.ActiveBackupForBusinessAgent
