@@ -338,6 +338,7 @@ winget_app_Microsoft.DeploymentToolkit
 winget_app_Microsoft.LAPS
 winget_app_Microsoft.AzureCLI
 winget_app_Microsoft.Teams
+winget_app_Microsoft.RemoteHelp
 winget_app_Microsoft.Sqlcmd
 winget_app_Microsoft.ServiceFabricSDK
 winget_app_Microsoft.WindowsAdminCenter
