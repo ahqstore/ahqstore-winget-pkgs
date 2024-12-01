@@ -421,7 +421,6 @@ winget_app_monsterkodi.kappo
 winget_app_monsterkodi.kalk
 winget_app_mar10.stressor
 winget_app_mar10.wsgidav
-winget_app_MiXXX.MiXXX
 winget_app_Musescore.Musescore
 winget_app_Microstockr.Desktopapp
 winget_app_MSPaintIDE.MSPaintIDE
@@ -1337,6 +1336,7 @@ winget_app_PilotEdge.MSFSclient
 winget_app_PassmarkSoftware.DiskCheckup
 winget_app_PassmarkSoftware.BatteryMon
 winget_app_Proton.ProtonVPN
+winget_app_Proton.ProtonMail
 winget_app_Proton.ProtonMailBridge
 winget_app_Proton.ProtonDrive
 winget_app_Perforce.P4V
@@ -2198,6 +2198,7 @@ winget_app_Seewo.PPTService
 winget_app_Seewo.EasiNote
 winget_app_Seewo.SmartpenService
 winget_app_Seewo.SeewoPincoGroup
+winget_app_SamuelTulach.VirusTotalUploader
 winget_app_SEA.OssAccess
 winget_app_squalou.google_chat_linux
 winget_app_SerhiiSlieptsov.Utilso
