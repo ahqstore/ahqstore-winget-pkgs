@@ -9,6 +9,7 @@ use std::{
 };
 use version_compare::Version;
 
+mod http;
 struct Map {
   entries: usize,
   files: usize,
@@ -122,7 +123,7 @@ fn fixstr(st: &str) -> String {
   st.replace("\u{a0}", " ")
 }
 
-pub fn parser() {
+pub async fn parser() {
   println!("⏲️ Please wait...");
   let _ = fs::remove_dir_all("./db");
   let _ = fs::create_dir_all("./db");
@@ -137,14 +138,17 @@ pub fn parser() {
       let author = author.unwrap().file_name();
       let author = author.to_str().unwrap();
 
-      app_parse(letter, author, &mut map);
+      app_parse(letter, author, &mut map).await;
     }
   }
   map.finish();
   println!("✅ Done!");
 }
 
-fn app_parse(letter: &str, author: &str, map: &mut Map) {
+use async_recursion::async_recursion;
+
+#[async_recursion]
+async fn app_parse(letter: &str, author: &str, map: &mut Map) {
   for app in fs::read_dir(format!("./winget-pkgs/manifests/{}/{}", &letter, &author)).unwrap() {
     let app = app.unwrap();
 
@@ -241,9 +245,9 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
           let mut msi: (Option<Installer>, Option<Installer>) = (None, None);
           let mut exe: (Option<Installer>, Option<Installer>) = (None, None);
 
-          installer.Installers.into_iter().for_each(|x| {
-            let type_msi = x.InstallerUrl.ends_with(".msi");
-            let type_exe = x.InstallerUrl.ends_with(".exe");
+          for x in installer.Installers {
+            let type_msi = x.InstallerUrl.ends_with(".msi") || http::cnt_dsp_check(&x.InstallerUrl, ".msi").await;
+            let type_exe = x.InstallerUrl.ends_with(".exe") || http::cnt_dsp_check(&x.InstallerUrl, ".exe").await;
 
             let locale = x.InstallerLocale.clone();
             let arch = &x.Architecture;
@@ -259,7 +263,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
                 exe.1 = Some(x);
               }
             }
-          });
+          }
 
           let x64_dat = msi.0.map_or_else(
             || exe.0.and_then(|x| Some((InstallerFormat::WindowsInstallerExe, x))),
@@ -370,7 +374,7 @@ fn app_parse(letter: &str, author: &str, map: &mut Map) {
         letter,
         &format!("{author}/{app}/{}", product.to_str().unwrap_or("unknown")),
         map,
-      );
+      ).await;
     }
   }
 }

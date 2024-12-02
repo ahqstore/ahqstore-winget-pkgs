@@ -2,6 +2,7 @@ mod parser;
 
 use parser::*;
 
-fn main() {
-  parser();
+#[tokio::main]
+async fn main() {
+  parser().await;
 }
