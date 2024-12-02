@@ -9,7 +9,7 @@ pub async fn cnt_dsp_check(url: &str, ends_with: &str) -> bool {
 }
 
 async fn cnt_dsp_inner(url: &str, ends: &str) -> Option<bool> {
-  let res = CLIENT.get(url).send().await.ok()?;
+  let res = CLIENT.head(url).send().await.ok()?;
 
   let headers = res.headers();
 
