@@ -3,9 +3,7 @@ use ahqstore_types::{
 };
 use serde_yml::from_str;
 use std::{
-  collections::HashMap,
-  fs::{self, File},
-  io::Write,
+  collections::HashMap, fs::{self, File}, io::Write
 };
 use version_compare::Version;
 
@@ -246,8 +244,13 @@ async fn app_parse(letter: &str, author: &str, map: &mut Map) {
           let mut exe: (Option<Installer>, Option<Installer>) = (None, None);
 
           for x in installer.Installers {
-            let type_msi = x.InstallerUrl.ends_with(".msi") || http::cnt_dsp_check(&x.InstallerUrl, ".msi").await;
-            let type_exe = x.InstallerUrl.ends_with(".exe") || http::cnt_dsp_check(&x.InstallerUrl, ".exe").await;
+            let mut type_msi = x.InstallerUrl.ends_with(".msi");
+            let mut type_exe = x.InstallerUrl.ends_with(".exe");
+
+            if !type_msi && !type_exe {
+              type_msi = http::cnt_dsp_check(&x.InstallerUrl, ".msi").await;
+              type_exe = http::cnt_dsp_check(&x.InstallerUrl, ".exe").await;
+            }
 
             let locale = x.InstallerLocale.clone();
             let arch = &x.Architecture;
