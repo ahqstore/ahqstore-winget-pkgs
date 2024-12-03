@@ -1138,6 +1138,7 @@ winget_app_NativeSoft.NativeRest
 winget_app_NewTek.NDI5Tools
 winget_app_NewTek.NDI5Runtime
 winget_app_NickGasson.NVC
+winget_app_Nextcloud.Talk
 winget_app_Nextcloud.NextcloudDesktop
 winget_app_NextDNS.NextDNS
 winget_app_NexusMods.Vortex
@@ -1186,7 +1187,6 @@ winget_app_vvvv.gamma
 winget_app_VB_Audio.Voicemeeter
 winget_app_VideoLAN.VLC
 winget_app_vividos.winLAME
-winget_app_Veeam.VeeamAgent
 winget_app_vassalengine.VASSAL
 winget_app_VPNetwork.TorGuard
 winget_app_ViGEm.ViGEmBus
@@ -1314,7 +1314,6 @@ winget_app_Postman.Postman
 winget_app_PatrikLaszlo.P3XRedisUI
 winget_app_PA7LIM.Doozy
 winget_app_Paragon.HFS+
-winget_app_ParallelsInternationalGmbH.ParallelsClient
 winget_app_Piriform.Recuva
 winget_app_Piriform.Defraggler
 winget_app_Piriform.Speccy
