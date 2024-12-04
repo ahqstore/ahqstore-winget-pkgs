@@ -1623,6 +1623,7 @@ winget_app_XMediaRecode.XMediaRecode
 winget_app_Xanashi.Icaros
 winget_app_Xidicone.AgentGit
 winget_app_Xidicone.AgentSVN
+winget_app_xLightsSequencer.xLights
 winget_app_XueyunRuiChuang.JsDesignAgent
 winget_app_XueyunRuiChuang.JsDesign
 winget_app_XK72.Charles
@@ -1930,7 +1931,6 @@ winget_app_Bilibili.Livehime
 winget_app_Bilibili.Bilibili
 winget_app_whitewaterfoundry.fedora_remix_for_wsl
 winget_app_williamnie.NetSend
-winget_app_Wacom.WacomTabletDriver
 winget_app_WinsiderSS.SystemInformer
 winget_app_Warzone2100Project.Warzone2100
 winget_app_Win32diskimager.win32diskimager
