@@ -355,7 +355,6 @@ winget_app_Microsoft.RemoteDesktopClient
 winget_app_Microsoft.ServiceFabricRuntime
 winget_app_Microsoft.Skype
 winget_app_Microsoft.DebugDiag
-winget_app_Microsoft.PowerShell
 winget_app_Microsoft.MouseandKeyboardCenter
 winget_app_Microsoft.WindowsADK
 winget_app_Microsoft.Office
