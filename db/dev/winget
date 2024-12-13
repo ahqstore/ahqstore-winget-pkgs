@@ -1166,6 +1166,7 @@ winget_app_Microsoft.HwpConverter
 winget_app_Microsoft.NetMon
 winget_app_Microsoft.Sqlcmd
 winget_app_Microsoft.MouseandKeyboardCenter
+winget_app_Microsoft.PowerBIReportBuilder
 winget_app_Microsoft.RemoteHelp
 winget_app_muffinista.before_dawn
 winget_app_mdyna.mdyna
@@ -1200,7 +1201,6 @@ winget_app_Melvin_Abraham.Google_Assistant
 winget_app_mlocati.GetText
 winget_app_Melodics.Melodics
 winget_app_Mailbird.Mailbird
-winget_app_MicrosoftCorporation.PowerBIReportBuilder
 winget_app_maurizuki.O2
 winget_app_mesonbuild.meson
 winget_app_monkeyWie.Gopeed
