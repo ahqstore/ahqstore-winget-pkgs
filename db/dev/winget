@@ -1154,7 +1154,6 @@ winget_app_Microsoft.PCManager
 winget_app_Microsoft.DebugDiag
 winget_app_Microsoft.AzureCLI
 winget_app_Microsoft.ServiceFabricRuntime
-winget_app_Microsoft.XMLNotepad
 winget_app_Microsoft.Office
 winget_app_Microsoft.LAPS
 winget_app_Microsoft.ServiceFabricSDK
@@ -1672,6 +1671,7 @@ winget_app_cawa_93.anime_library
 winget_app_Cockos.REAPER
 winget_app_Cryptomator.Cryptomator
 winget_app_CubeSoft.CubePDFUtility
+winget_app_CyberHive.Connect
 winget_app_ChiaNetwork.GUIforChiaBlockchain
 winget_app_Cairo.Cairo
 winget_app_CiKSolutions.LogTagAnalyzer
@@ -2153,7 +2153,6 @@ winget_app_FlipperDevicesInc.qFlipper
 winget_app_FlorianHeidenreich.Mp3tag
 winget_app_FastStone.Capture
 winget_app_Fenzhi.tagLyst
-winget_app_Figma.Figma
 winget_app_Figma.FigmaAgent
 winget_app_Fenrirthviti.obs_virtual_cam
 winget_app_Foundry376.Mailspring
