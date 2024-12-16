@@ -692,6 +692,7 @@ winget_app_AgileStudio.QuoteHunt
 winget_app_Airtame.Airtame
 winget_app_Acronis.CyberProtectHomeOffice
 winget_app_alagrede.znote
+winget_app_AllroundAutomations.PLSQLDeveloper
 winget_app_AutonomousSoftware.MetronomeWallet
 winget_app_AndreWiethoff.ExactAudioCopy
 winget_app_Amazon.SessionManagerPlugin
@@ -1877,7 +1878,6 @@ winget_app_Oracle.MySQL
 winget_app_Oracle.MySQLWorkbench
 winget_app_Oracle.VirtualBox
 winget_app_Oracle.JavaRuntimeEnvironment
-winget_app_OpenRA.OpenRA
 winget_app_OpenShopChannel.Downloader
 winget_app_OpenChemistry.Avogadro2
 winget_app_OpenWhisperSystems.Signal
