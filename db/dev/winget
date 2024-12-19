@@ -1146,6 +1146,7 @@ winget_app_Microsoft.WindowsInstallationAssistant
 winget_app_Microsoft.PowerAutomateDesktop
 winget_app_Microsoft.PIX
 winget_app_Microsoft.WindowsTerminal
+winget_app_Microsoft.DotNet.DesktopRuntime.8
 winget_app_Microsoft.RemoteDesktopClient
 winget_app_Microsoft.WindowsVirtualDesktopAgent
 winget_app_Microsoft.VisualStudio.Extensions.TypeScript
