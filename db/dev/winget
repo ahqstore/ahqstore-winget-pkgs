@@ -274,6 +274,7 @@ winget_app_QMK.QMKToolbox
 winget_app_QTextPad.QTextPad
 winget_app_QmmpDevelopmentTeam.qmmp
 winget_app_qforce.DocFetcher
+winget_app_QTodoTxt.QTodoTxt
 winget_app_QNAP.NetBakReplicator
 winget_app_QNAP.QENCDecrypter
 winget_app_QNAP.Qsirch
@@ -367,6 +368,7 @@ winget_app_Biyi.Biyi
 winget_app_BespokeSynth.BespokeSynth
 winget_app_bmatzelle.Gow
 winget_app_BrutalChess.BrutalChess
+winget_app_Bililive.BililiveRecorder
 winget_app_Beeper.Beeper
 winget_app_bitbeans.SimpleDNSCrypt
 winget_app_bitwig.bitwig
@@ -997,6 +999,7 @@ winget_app_Egnyte.Addin
 winget_app_Egnyte.EgnyteWebEdit
 winget_app_Egnyte.EgnyteDesktopApp
 winget_app_ElijahLopez.MusicCaster
+winget_app_Exploitox.CheckIP
 winget_app_Ebbflow.Ebbflow
 winget_app_Element.Element
 winget_app_ElstenSoftware.Astiga
@@ -1569,6 +1572,7 @@ winget_app_stevencohn.OneMore
 winget_app_Shure.ShurePlusMOTIV
 winget_app_SiberSystems.GoodSync
 winget_app_SiberSystems.RoboForm
+winget_app_sunabozu.subordination
 winget_app_schild_report.schild_report
 winget_app_Seonglae.Intuiter
 winget_app_Seonglae.Screencast
