@@ -589,6 +589,7 @@ winget_app_AcroSoftwareInc.CutePDFWriter
 winget_app_AltDrag.AltDrag
 winget_app_ArcadeRenegade.SidebarDiagnostics
 winget_app_ATNSOFT.KeyRemapper
+winget_app_ATNSOFT.KeyManager
 winget_app_amir1376.ABDownloadManager
 winget_app_ActiveState.KomodoEdit
 winget_app_ActiveState.KomodoIDE
@@ -867,7 +868,9 @@ winget_app_DIG.PWAutoLogin
 winget_app_dotenorio.clipboard_manager_electron
 winget_app_DavidTHOIRON.FotoSketcher
 winget_app_Doxie.Doxie
+winget_app_DaringDevelopmentInc.Horizon
 winget_app_Dothq.DotBrowser
+winget_app_deskfiler.deskfiler
 winget_app_DygmaLabs.Bazecor
 winget_app_Douyu.DouyuLive
 winget_app_darktable.darktable
@@ -922,6 +925,7 @@ winget_app_Dashlane.Dashlane
 winget_app_DBVis.DBVisualizer
 winget_app_DBBrowserForSQLite.DBBrowserForSQLite
 winget_app_DevToys_app.DevToys
+winget_app_DjVuLibre.DjView
 winget_app_dangeredwolf.ModernDeck
 winget_app_DrewNaylor.UXL_Launcher
 winget_app_DigiDNA.iMazingHEICConverter
@@ -1708,6 +1712,7 @@ winget_app_CarstenGehling.JiraStopWatch
 winget_app_CologneCodeCompany.XYplorer
 winget_app_Cencit.BAS21
 winget_app_code52.Carnac
+winget_app_ChrisBagwell.SoX
 winget_app_ChristianAviBulan.GlassCannon
 winget_app_Chatty.Chatty
 winget_app_CCPGames.EVEOnline
