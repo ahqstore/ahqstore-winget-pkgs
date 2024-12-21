@@ -290,6 +290,7 @@ winget_app_Baidu.BaiduWenku
 winget_app_BlueJTeam.BlueJ
 winget_app_BYOND.BYOND
 winget_app_BlueMystical.EDHM
+winget_app_Bome.SendSX
 winget_app_brianlima.uwphook
 winget_app_bdash_app.bdash
 winget_app_btargac.excel_parser_processor
@@ -355,6 +356,7 @@ winget_app_BitcoinCoreProject.BitcoinCore
 winget_app_Biyi.Biyi
 winget_app_BespokeSynth.BespokeSynth
 winget_app_bmatzelle.Gow
+winget_app_BrutalChess.BrutalChess
 winget_app_Beeper.Beeper
 winget_app_bitbeans.SimpleDNSCrypt
 winget_app_bitwig.bitwig
@@ -362,6 +364,7 @@ winget_app_Bosyun.Pixso
 winget_app_Bosyun.PixsoLocalFont
 winget_app_Bosyun.BoardMix
 winget_app_BinanceTech.Binance
+winget_app_BitSum.Coreprio
 winget_app_BitSum.ProcessLasso
 winget_app_Betterbird.Betterbird
 winget_app_BiglySoftware.BiglyBT
@@ -585,6 +588,7 @@ winget_app_Authpass.Authpass
 winget_app_AcroSoftwareInc.CutePDFWriter
 winget_app_AltDrag.AltDrag
 winget_app_ArcadeRenegade.SidebarDiagnostics
+winget_app_ATNSOFT.KeyRemapper
 winget_app_amir1376.ABDownloadManager
 winget_app_ActiveState.KomodoEdit
 winget_app_ActiveState.KomodoIDE
@@ -610,6 +614,7 @@ winget_app_Anthropic.Claude
 winget_app_ali50m.AddCurrentPath
 winget_app_aliceandbob_io.aliceandbob
 winget_app_AngusJohnson.ResourceHacker
+winget_app_AngusJohnson.PDFTKBuilder
 winget_app_AderitoNeto.AfterLife
 winget_app_AIMP.AIMP
 winget_app_arch1t3cht.Aegisub
@@ -681,6 +686,7 @@ winget_app_Appest.TickTick
 winget_app_Appest.Dida
 winget_app_AcFun.AcFunVirtualTool
 winget_app_AcFun.ARLiveForAcfunLive
+winget_app_amitmerchant1990.electron_markdownify
 winget_app_Apryse.XodoPDFReader
 winget_app_AuraSide.Mantle
 winget_app_ArduinoSA.CLI
@@ -694,6 +700,7 @@ winget_app_Atola.FindandMount
 winget_app_Albion.Online
 winget_app_AgileStudio.QuoteHunt
 winget_app_Airtame.Airtame
+winget_app_AutoIt.AutoIt
 winget_app_Acronis.CyberProtectHomeOffice
 winget_app_alagrede.znote
 winget_app_AllroundAutomations.PLSQLDeveloper
@@ -745,6 +752,7 @@ winget_app_7zip.7zip.Alpha.msi
 winget_app_720kb.ndm
 winget_app_7room.Aya
 winget_app_7S2P.Effie
+winget_app_wahao.Electron_iGot
 winget_app_Wagnardsoft.DisplayDriverUninstaller
 winget_app_WerWolv.ImHex
 winget_app_Wacom.WacomTabletDriver
@@ -843,6 +851,7 @@ winget_app_dokan_dev.Dokany
 winget_app_DavidJoffe.DaveGnukem
 winget_app_Dio.PureCodec
 winget_app_drakkan.SFTPGo
+winget_app_dreamus.flo
 winget_app_daltonmenezes.electron_screen_recorder
 winget_app_Daum.PotPlayer
 winget_app_docmirror.dev_sidecar
@@ -907,6 +916,7 @@ winget_app_Dman95.SASM
 winget_app_Deezer.Deezer
 winget_app_Dicarne.TheCenter
 winget_app_dune3d.dune3d
+winget_app_DmitryKozhinov.IconEdit2
 winget_app_Dialpad.Dialpad
 winget_app_Dashlane.Dashlane
 winget_app_DBVis.DBVisualizer
@@ -1680,6 +1690,7 @@ winget_app_Cryptomator.Cryptomator
 winget_app_CubeSoft.CubePDFUtility
 winget_app_CyberHive.Connect
 winget_app_ChiaNetwork.GUIforChiaBlockchain
+winget_app_COWON.jetAudio
 winget_app_Cairo.Cairo
 winget_app_CiKSolutions.LogTagAnalyzer
 winget_app_Cube.CubePlatform
@@ -1701,6 +1712,7 @@ winget_app_ChristianAviBulan.GlassCannon
 winget_app_Chatty.Chatty
 winget_app_CCPGames.EVEOnline
 winget_app_clsid2.mpc_hc
+winget_app_Chadsoft.CTools
 winget_app_Coq.CoqPlatform
 winget_app_CTerm.CTerm
 winget_app_CloudStack.Msty
@@ -1732,6 +1744,7 @@ winget_app_Comix.FastMeetingLauncher
 winget_app_Comix.FastMeetingAVPlugins
 winget_app_CPUID.HWMonitor
 winget_app_CPUID.CPU_Z
+winget_app_Cyotek.ColorPaletteEditor
 winget_app_ClawsMail.ClawsMail
 winget_app_Caphyon.Hover
 winget_app_Caphyon.AdvancedInstaller
@@ -1743,6 +1756,7 @@ winget_app_ChangemakerStudios.Papercut_SMTP
 winget_app_calibre.calibre
 winget_app_CloudApp.CloudApp
 winget_app_ColonyLabs.ScribeDesktopCapture
+winget_app_chrdavis.smartrename
 winget_app_c0re100.qBittorrent_Enhanced_Edition
 winget_app_CloudImperiumGames.RSILauncher
 winget_app_CrystalDewWorld.CrystalDiskMark
@@ -1750,6 +1764,7 @@ winget_app_CrystalDewWorld.CrystalDiskInfo
 winget_app_CEB.CEBEBankAssistant
 winget_app_Couchcoding.Logbert
 winget_app_CoreyButler.NVMforWindows
+winget_app_CubicSDR.CubicSDR
 winget_app_coti.mcxstudio
 winget_app_CeruleanStudios.Trillian
 winget_app_CrowdSecurity.CrowdSec
@@ -2148,6 +2163,7 @@ winget_app_GLPI_Project.GLPI_Agent
 winget_app_GuinpinSoft.MakeMKV
 winget_app_GaoYoubo.HexoClient
 winget_app_gileli121.windowtop
+winget_app_gurnec.HashCheckShellExtension
 winget_app_GNU.Emacs
 winget_app_Feodor2.Mypal
 winget_app_fjsoft.MyPhoneExplorer
