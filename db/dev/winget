@@ -544,7 +544,6 @@ winget_app_HMSoft.HMNISEdit
 winget_app_HulubuluSoftware.AdvancedRenamer
 winget_app_Hexandcube.DesktopIconToggle
 winget_app_Hesan.He3
-winget_app_HarshKhandeparkar.RainbowBoard
 winget_app_H2IK.JoystickGremlin
 winget_app_Hydraulic.Conveyor
 winget_app_Headsetapp.Headset
@@ -2247,6 +2246,7 @@ winget_app_Fenrirthviti.obs_virtual_cam
 winget_app_Foundry376.Mailspring
 winget_app_FlyByWireSimulations.FlyByWireSimulationsInstaller
 winget_app_fio.fio
+winget_app_FreePascal.FreePascalCompiler
 winget_app_FrancisBanyikwa.SiriKali
 winget_app_FookesHolding.NoteTabLight
 winget_app_Floweb.Floweb
