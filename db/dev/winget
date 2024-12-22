@@ -1093,6 +1093,7 @@ winget_app_PeterStrick.ViVeTool_GUI
 winget_app_Primesieve.Primesieve
 winget_app_PDFsam.PDFsam
 winget_app_PTRTECH.UVtools
+winget_app_PatentLobster.stinker
 winget_app_PurpleI2P.i2pd
 winget_app_Perforce.P4V
 winget_app_Proxyman.Proxyman
@@ -1692,6 +1693,7 @@ winget_app_Sysprogs.SmarTTY
 winget_app_SWI_Prolog.SWI_Prolog
 winget_app_SabakiHQ.Sabaki
 winget_app_Solidigm.StorageTool
+winget_app_SyncTrayzor.SyncTrayzor
 winget_app_sidneys.pb_for_desktop
 winget_app_sqlectron.sqlectron_gui
 winget_app_Sinew.Enpass
@@ -2273,6 +2275,7 @@ winget_app_feugy.melodie
 winget_app_FelipeSantos.ClipboardSync
 winget_app_Fork.Fork
 winget_app_Fontke.LikeFont
+winget_app_fotor.fotor
 winget_app_FileVoyager.FileVoyager
 winget_app_FSC_SOFT.VoiceMacro
 winget_app_FounderType.FounderType
