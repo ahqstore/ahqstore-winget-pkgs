@@ -219,6 +219,7 @@ winget_app_JFrog.Conan
 winget_app_JamieOConnell.MIDI_OX
 winget_app_JReleaser.jreleaser
 winget_app_JurgenRathlev.InnoUnpacker
+winget_app_JumpCloud.PasswordManager
 winget_app_Julialang.Julia
 winget_app_Jackett.Jackett
 winget_app_JinweiZhiguang.MasterAgent
@@ -994,6 +995,7 @@ winget_app_EverEdit.EverEdit
 winget_app_Embarcadero.Dev_C++
 winget_app_Easeware.DriverEasy
 winget_app_Empoche.Empoche
+winget_app_ExtremeTuxRacer.ExtremeTuxRacer
 winget_app_Egnyte.Addin
 winget_app_Egnyte.EgnyteWebEdit
 winget_app_Egnyte.EgnyteDesktopApp
