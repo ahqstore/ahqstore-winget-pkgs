@@ -156,6 +156,7 @@ winget_app_VirtusLab.ScalaCLI
 winget_app_Vercel.Hyper
 winget_app_vvvv.gamma
 winget_app_ViGEm.ViGEmBus
+winget_app_VOWSoft.iBackupBot
 winget_app_voidtools.Everything
 winget_app_VeyonSolutions.Veyon
 winget_app_Vogan.TinyCodes
@@ -2241,6 +2242,7 @@ winget_app_Foxit.PhantomPDF.Subscription.MSI
 winget_app_FastCopy.FastCopy
 winget_app_FalconNL93.WSLToolbox
 winget_app_felixgborrego.simple_docker_ui
+winget_app_Faithlife.Logos
 winget_app_FlipperDevicesInc.qFlipper
 winget_app_FlorianHeidenreich.Mp3tag
 winget_app_FastStone.Capture
