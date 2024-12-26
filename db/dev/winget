@@ -307,6 +307,7 @@ winget_app_bdash_app.bdash
 winget_app_btargac.excel_parser_processor
 winget_app_Botkind.AllwaySync
 winget_app_BCM.SecEditCtl
+winget_app_Bforartists.Bforartists
 winget_app_BornToBeRoot.NETworkManager
 winget_app_Blix.BlueMail
 winget_app_BandicamCompany.Bandicam
@@ -2229,7 +2230,6 @@ winget_app_GOG.Galaxy
 winget_app_gitthermal.thermal
 winget_app_goatcorp.XIVLauncher
 winget_app_Giorgiotani.Peazip
-winget_app_gopass.gopass
 winget_app_Garena.Garena
 winget_app_GorillaDevs.GDLauncher
 winget_app_GristLabs.GristDesktop
