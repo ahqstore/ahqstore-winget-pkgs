@@ -4,7 +4,6 @@ winget_app_ImageOptim.gifski
 winget_app_IG.IGClient
 winget_app_Initex.YogaDNS
 winget_app_Initex.Proxifier
-winget_app_INTSIG.CamScanner
 winget_app_IndigoByte.DrExplain
 winget_app_Iriun.IriunVR
 winget_app_Iterate.MountainDuck
@@ -1301,6 +1300,7 @@ winget_app_MSYS2.MSYS2
 winget_app_maojindao55.Etcder
 winget_app_mguessan.davmail
 winget_app_Mixxx.Mixxx
+winget_app_mortenn.BrowserPicker
 winget_app_MartinFinnerup.YouTubeMusicforDesktop
 winget_app_MoritzBunkus.MKVToolNix
 winget_app_murgatt.recode_converter
