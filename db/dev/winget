@@ -2200,6 +2200,7 @@ winget_app_GeoGebra.Geometry
 winget_app_GeoGebra.CASCalculator
 winget_app_GeoGebra.GraphingCalculator
 winget_app_GnuCash.GnuCash
+winget_app_GISInternals.GDAL
 winget_app_Glodon.CADReader
 winget_app_gnome.gedit
 winget_app_gnome.gitg
