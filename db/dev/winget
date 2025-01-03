@@ -1099,6 +1099,7 @@ winget_app_PrivateInternetAccess.PrivateInternetAccess
 winget_app_Proton.ProtonVPN
 winget_app_Proton.ProtonDrive
 winget_app_Proton.ProtonMailBridge
+winget_app_Proton.ProtonPass
 winget_app_Proton.ProtonMail
 winget_app_PeterStrick.ViVeTool_GUI
 winget_app_Primesieve.Primesieve
@@ -2091,6 +2092,7 @@ winget_app_LIGHTNINGUK.ImgBurn
 winget_app_LightBurnSoftware.LightBurn
 winget_app_LGUG2Z.whkd
 winget_app_LGUG2Z.komorebi
+winget_app_LGUG2Z.komokana
 winget_app_luapp.ToDo
 winget_app_LesFerch.WinSetView
 winget_app_lencx.ChatGPT
