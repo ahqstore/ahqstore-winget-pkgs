@@ -1058,6 +1058,7 @@ winget_app_Elgato.WaveLink
 winget_app_Elgato.ControlCenter
 winget_app_Elgato.CameraHub
 winget_app_ErykRakowski.Multrin
+winget_app_Ethereum.geth
 winget_app_Ethereum.grid
 winget_app_EliWeitzman.ETT_Admin
 winget_app_ekvedaras.redis_gui
