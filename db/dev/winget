@@ -892,6 +892,7 @@ winget_app_Dixa.Dixa
 winget_app_Datto.Workplace
 winget_app_Dell.CommandUpdate
 winget_app_Dell.DisplayManager
+winget_app_Dell.PeripheralManager
 winget_app_Dell.CommandConfigure
 winget_app_DIG.PWAutoLogin
 winget_app_dotenorio.clipboard_manager_electron
