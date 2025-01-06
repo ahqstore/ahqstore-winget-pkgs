@@ -429,6 +429,7 @@ winget_app_ByteDance.Doubao
 winget_app_ByteDance.StreamingTool
 winget_app_brimdata.brim
 winget_app_Blitz.Blitz
+winget_app_Bdrive.RcloneView
 winget_app_Beseda.Convy
 winget_app_BrunoNova.DrMIPS
 winget_app_KakaoEnterprise.KakaoWork
@@ -2206,6 +2207,7 @@ winget_app_Graphviz.Graphviz
 winget_app_GnuPG.GnuPG
 winget_app_GnuPG.Gpg4win
 winget_app_GianlucaPernigotto.Videomass
+winget_app_guijan.dictpw
 winget_app_guideguide.ZXPInstaller
 winget_app_GilmarQuinelato.i18nManager
 winget_app_GeoGebra.CalculatorSuite
