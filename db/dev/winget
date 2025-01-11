@@ -454,7 +454,6 @@ winget_app_KhronosGroup.VulkanRT
 winget_app_Kingdee.CloudHub
 winget_app_KoushikNaskar.InteractiveDataEditor
 winget_app_KakaoEntertainmentCorp.MelonPlayer
-winget_app_KuRuimeng.PalmInput
 winget_app_KorigamiK.mangu
 winget_app_Kingsoft.KDocs
 winget_app_Kingsoft.WPSOffice
@@ -1962,7 +1961,6 @@ winget_app_NetEase.YoudaoNote
 winget_app_NetEase.YoudaoPokeClass
 winget_app_NetEase.CloudMusic
 winget_app_NetEase.DD
-winget_app_NetEase.GameViewer
 winget_app_NetEase.UURemote
 winget_app_NetEase.YoudaoTongchuan
 winget_app_NetEase.QIYU
@@ -2337,7 +2335,6 @@ winget_app_FineprintSoftware.FinePrint
 winget_app_FrostWire.FrostWire
 winget_app_Freedom.Freedom
 winget_app_Formagrid.Airtable
-winget_app_FancyNode.PxCook
 winget_app_FelipeEFdeCastro.Klavaro
 winget_app_Timber1900.WebDL
 winget_app_Tonec.InternetDownloadManager
