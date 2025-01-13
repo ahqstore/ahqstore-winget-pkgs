@@ -29,8 +29,13 @@ winget_app_iTop.iTopScreenRecorder
 winget_app_IPVanish.SugarSync
 winget_app_IPVanish.IPVanish
 winget_app_idrassi.HashCheckShellExtension
+winget_app_IObit.SmartDefrag
+winget_app_IObit.IObitSysInfo
+winget_app_IObit.ProtectedFolder
+winget_app_IObit.RandomPasswordGenerator
 winget_app_IObit.AdvancedSystemCare
 winget_app_IObit.Uninstaller
+winget_app_IObit.IObitSoftwareUpdater
 winget_app_IObit.DriverBooster
 winget_app_Intel.FortranCompiler
 winget_app_Intel.PresentMon
@@ -141,6 +146,7 @@ winget_app_Rambax.SimpleTransfer
 winget_app_VirusTotal.VirusTotalUploader
 winget_app_Valve.Steam
 winget_app_Valve.SteamLink
+winget_app_VirtualGL.TurboVNC
 winget_app_Vysor.Vysor
 winget_app_Veeam.VeeamAgent
 winget_app_VideoLAN.VLC
@@ -471,6 +477,7 @@ winget_app_Keybase.Keybase
 winget_app_KurtisLiggett.SimpleIPConfig
 winget_app_karakun.OpenWebStart
 winget_app_klinker24.google_calendar_desktop
+winget_app_Kitware.Slicer
 winget_app_Kitware.CMake
 winget_app_Keboola.KeboolaCLI
 winget_app_Kapibala.Shuitun
@@ -1587,6 +1594,7 @@ winget_app_Synology.NoteStationClient
 winget_app_Synology.SurveillanceStationClient
 winget_app_Synology.ActiveBackupForBusinessAgent
 winget_app_Synology.ChatClient
+winget_app_Synology.ImageAssistant
 winget_app_Synology.Assistant
 winget_app_Synology.DriveClient
 winget_app_staniel359.muffon
@@ -2343,6 +2351,7 @@ winget_app_Formagrid.Airtable
 winget_app_FelipeEFdeCastro.Klavaro
 winget_app_Timber1900.WebDL
 winget_app_Tonec.InternetDownloadManager
+winget_app_TextExpander.TextExpander
 winget_app_tailscale.tailscale
 winget_app_TrackerSoftware.PDF_XChangeViewer
 winget_app_TrackerSoftware.PDF_XChangePRO
@@ -2396,6 +2405,7 @@ winget_app_TeamViewer.TeamViewer
 winget_app_TorProject.TorBrowser
 winget_app_TidyCustoms.Publii
 winget_app_TossLab.JANDI
+winget_app_TristanEdwards.Codespace
 winget_app_taers232c.GAMADV_XTD3
 winget_app_TuxGuitar.TuxGuitar
 winget_app_Twitch.Soundtrack
