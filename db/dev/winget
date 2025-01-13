@@ -483,6 +483,7 @@ winget_app_Keboola.KeboolaCLI
 winget_app_Kapibala.Shuitun
 winget_app_Kakao.KakaoTalk
 winget_app_Kuro.Mery
+winget_app_Keysight.OpenTAP
 winget_app_Keysight.PathWaveLicenseManager
 winget_app_YACReader.YACReader
 winget_app_Yuanfudao.TalkingPenAssistant
@@ -1590,7 +1591,6 @@ winget_app_StartIsBack.StartIsBack
 winget_app_SmartHoldemDAPPs.heads_tails
 winget_app_SergeySerkov.TagScanner
 winget_app_SteelSeries.GG
-winget_app_Synology.NoteStationClient
 winget_app_Synology.SurveillanceStationClient
 winget_app_Synology.ActiveBackupForBusinessAgent
 winget_app_Synology.ChatClient
