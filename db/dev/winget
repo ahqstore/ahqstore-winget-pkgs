@@ -35,6 +35,7 @@ winget_app_IObit.ProtectedFolder
 winget_app_IObit.RandomPasswordGenerator
 winget_app_IObit.AdvancedSystemCare
 winget_app_IObit.Uninstaller
+winget_app_IObit.MalwareFighter
 winget_app_IObit.IObitSoftwareUpdater
 winget_app_IObit.DriverBooster
 winget_app_Intel.FortranCompiler
@@ -2472,6 +2473,7 @@ winget_app_Telerik.FiddlerPDFView
 winget_app_Termius.Termius
 winget_app_Talkdesk.Callbar
 winget_app_Talkdesk.Talkdesk
+winget_app_TheBlind.T_Shell
 winget_app_TooYi.IShell
 winget_app_ThinkingManSoftware.Dimension4
 winget_app_TransendInfo.SSDScopeApp
