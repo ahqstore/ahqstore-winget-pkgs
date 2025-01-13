@@ -297,6 +297,7 @@ winget_app_QNAP.Qsync
 winget_app_qBittorrent.qBittorrent
 winget_app_Qt.QtDesigner
 winget_app_Qingfeng.HeyboxAccelerator
+winget_app_Qingfeng.HeyboxChat
 winget_app_Qingfeng.HeyboxWow
 winget_app_QXYZLabs.Sanctum
 winget_app_QMPlay2.QMPlay2
