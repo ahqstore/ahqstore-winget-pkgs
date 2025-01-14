@@ -9,6 +9,7 @@ winget_app_Iriun.IriunVR
 winget_app_Iterate.MountainDuck
 winget_app_Iterate.Cyberduck
 winget_app_IAMCloud.CloudDriveMapper
+winget_app_InspectDevTools.Inspect
 winget_app_iFlytek.iFlyNote
 winget_app_iFlytek.iFlyIME
 winget_app_iFlytek.iFlyRecSI
@@ -487,6 +488,7 @@ winget_app_Kakao.KakaoTalk
 winget_app_Kuro.Mery
 winget_app_Keysight.OpenTAP
 winget_app_Keysight.PathWaveLicenseManager
+winget_app_Khoj.Khoj
 winget_app_YACReader.YACReader
 winget_app_Yuanfudao.TalkingPenAssistant
 winget_app_Yuanfudao.Yuanfudao
@@ -1773,6 +1775,7 @@ winget_app_CodeSector.DirectFolders
 winget_app_CodeSector.TeraCopy
 winget_app_cawa_93.anime_library
 winget_app_Cockos.REAPER
+winget_app_Castr.Castr
 winget_app_Cryptomator.Cryptomator
 winget_app_CubeSoft.CubePDFUtility
 winget_app_CyberHive.Connect
@@ -1819,6 +1822,7 @@ winget_app_Cisco.ClamAV
 winget_app_CameronSutter.Plottr
 winget_app_cangzhang.champ_r
 winget_app_commercialhaskell.stack
+winget_app_CodeBerserkers888.DxGPT_AI
 winget_app_Cloudflare.cloudflared
 winget_app_Cloudflare.Warp
 winget_app_corda.node_explorer
@@ -1861,6 +1865,7 @@ winget_app_CrowdSecurity.CrowdSec
 winget_app_COAS.Donkey
 winget_app_COAS.SemantaModeler
 winget_app_ChronoplexSoftware.MyFamilyTree
+winget_app_Comfy.ComfyUI_Desktop
 winget_app_Chocolatey.ChocolateyGUI
 winget_app_Chocolatey.Chocolatey
 winget_app_ChilliBits.ComposeGenerator
