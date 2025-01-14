@@ -592,6 +592,7 @@ winget_app_HDDGURU.HDDLLFTool
 winget_app_Hashicorp.Vagrant
 winget_app_HiroSystems.Chainhook
 winget_app_HiroSystems.Clarinet
+winget_app_Hydrogen_Music.Hydrogen
 winget_app_HelmutBuhler.8GadgetPack
 winget_app_HP.HPCMSL
 winget_app_HP.HPCloudRecoveryTool
@@ -1715,6 +1716,7 @@ winget_app_SpriteOvO.AirPodsDesktop
 winget_app_Shilihu.Mubu
 winget_app_Sony.XperiaCompanion
 winget_app_SmartBear.SoapUI
+winget_app_Sigil_Ebook.Sigil
 winget_app_szTheory.exifcleaner
 winget_app_Serraniel.DiscordMediaLoader
 winget_app_sum1re.CaptionOCRTool
@@ -2170,6 +2172,7 @@ winget_app_Xiaomi.XiaomiCloud
 winget_app_Xiaomi.MiService
 winget_app_Xidicone.AgentGit
 winget_app_Xidicone.AgentSVN
+winget_app_XenServer.XenTools
 winget_app_Xiaoe.Xiaoetong
 winget_app_XMediaRecode.XMediaRecode
 winget_app_Xanashi.Icaros
