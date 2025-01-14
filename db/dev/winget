@@ -1241,6 +1241,7 @@ winget_app_Microsoft.WindowsAdminCenter
 winget_app_Microsoft.WindowsADK
 winget_app_Microsoft.Teams
 winget_app_Microsoft.AzureMonitorAgent
+winget_app_Microsoft.RemoteDesktopMMRService
 winget_app_Microsoft.HwpConverter
 winget_app_Microsoft.NetMon
 winget_app_Microsoft.Sqlcmd
@@ -1300,6 +1301,7 @@ winget_app_Muye.FlickerList
 winget_app_MajsoulPlus.MajsoulPlus
 winget_app_MaxDiesel.UnrealCommander
 winget_app_MariaDB.Server
+winget_app_MAXHUB.MAXHUBShare
 winget_app_Mango3D.LycheeSlicer
 winget_app_MHNexus.HxD
 winget_app_madisvain.upcount
