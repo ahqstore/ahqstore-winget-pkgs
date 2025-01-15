@@ -285,6 +285,7 @@ winget_app_QuodLibet.QuodLibet
 winget_app_QMK.QMKToolbox
 winget_app_QTextPad.QTextPad
 winget_app_QmmpDevelopmentTeam.qmmp
+winget_app_Quanshi.QuanshiMeeting
 winget_app_qforce.DocFetcher
 winget_app_Qualibyte.Pixelformer
 winget_app_QTodoTxt.QTodoTxt
@@ -2260,6 +2261,7 @@ winget_app_GitHub.ClassroomAssistant
 winget_app_GitHub.cli
 winget_app_GitHub.GitLFS
 winget_app_gpodder.gpodder
+winget_app_GottCode.FocusWriter
 winget_app_Grammarly.Grammarly
 winget_app_GPSoftware.DirectoryOpus
 winget_app_GuraNotFound.Ninarium
